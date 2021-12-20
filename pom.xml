@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.buschmais.jqassistant.demo</groupId>
+    <artifactId>jakarta-ee-dependencies</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <jqassistant.version>1.11.1</jqassistant.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.buschmais.jqassistant</groupId>
+                <artifactId>jqassistant-maven-plugin</artifactId>
+                <version>${jqassistant.version}</version>
+                <executions>
+                    <execution>
+                        <id>default-cli</id>
+                        <goals>
+                            <goal>scan</goal>
+                            <goal>analyze</goal>
+                        </goals>
+                        <configuration>
+                            <!-- allow incremental scan -->
+                            <reset>false</reset>
+                            <executeAppliedConcepts>true</executeAppliedConcepts>
+                            <scanProperties>
+                                <m2repo.filter.includes>${repo.filter}</m2repo.filter.includes>
+                                <m2repo.directory>${project.basedir}/data/m2repo</m2repo.directory>
+                            </scanProperties>
+                            <scanIncludes>
+                                <scanInclude>
+                                    <url>${repo.url}</url>
+                                    <scope>maven:repository</scope>
+                                </scanInclude>
+                            </scanIncludes>
+                            <groups>
+                                <group>jakarta-ee-dependencies</group>
+                            </groups>
+                            <storeDirectory>${project.basedir}/data/jqassistant/store</storeDirectory>
+                            <!--
+                            <store>
+                                <uri>bolt://localhost:7687</uri>
+                            </store>
+                            -->
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

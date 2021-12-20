@@ -1,0 +1,52 @@
+<jqassistant-rules xmlns="http://schema.jqassistant.org/rule/v1.11" >
+
+    <group id="jakarta-ee-dependencies">
+        <includeConcept refId="jakarta-ee-dependencies:*"/>
+    </group>
+
+    <concept id="jakarta-ee-dependencies:ArtifactDependencies">
+        <description>Propagates dependencies declared by Pom descriptor to artifacts.</description>
+        <cypher><![CDATA[
+            MATCH
+              (pom:Effective:Pom),
+              (pom)-[:DESCRIBES]->(artifact:Artifact),
+              (pom)-[:DECLARES_DEPENDENCY]->()-[:TO_ARTIFACT]->(dependency:Artifact)
+            MERGE
+              (artifact)-[:DEPENDS_ON]->(dependency)
+            RETURN
+              count(artifact)
+        ]]></cypher>
+    </concept>
+
+    <concept id="jakarta-ee-dependencies:RemoveArtifactTimestamp">
+        <description>Removes timestamp attributes (for GraphML reports).</description>
+        <cypher><![CDATA[
+            MATCH
+              (n)
+            WHERE
+              exists(n.lastModified)
+            REMOVE
+              n.lastModified
+            RETURN
+              count(n)
+        ]]></cypher>
+    </concept>
+
+    <concept id="jakarta-ee-dependencies:PlatformDependencyReport">
+        <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
+        <requiresConcept refId="jakarta-ee-dependencies:RemoveArtifactTimestamp" />
+        <description>Creates reports about dependencies as GraphML file and PlantUML component diagram.</description>
+        <cypher><![CDATA[
+            MATCH
+              (platform:Artifact)
+            WHERE
+              platform.fqn="jakarta.platform:jakarta.jakartaee-api:jar:9.1.0"
+            MATCH
+              (platform)-[d:DEPENDS_ON*]->(dependency:Artifact)
+            RETURN
+              *
+        ]]></cypher>
+        <report type="graphml,plantuml-component-diagram" />
+    </concept>
+
+</jqassistant-rules>
