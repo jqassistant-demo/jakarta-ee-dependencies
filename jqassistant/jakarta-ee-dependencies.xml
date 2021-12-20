@@ -14,22 +14,28 @@
             MERGE
               (artifact)-[:DEPENDS_ON]->(dependency)
             RETURN
-              count(artifact)
+              count(*)
         ]]></cypher>
+        <verify>
+          <aggregation />
+        </verify>
     </concept>
 
     <concept id="jakarta-ee-dependencies:RemoveArtifactTimestamp">
         <description>Removes timestamp attributes (for GraphML reports).</description>
         <cypher><![CDATA[
             MATCH
-              (n)
+              (artifact:Artifact)
             WHERE
-              exists(n.lastModified)
+              exists(artifact.lastModified)
             REMOVE
-              n.lastModified
+              artifact.lastModified
             RETURN
-              count(n)
+              count(artifact)
         ]]></cypher>
+        <verify>
+          <aggregation />
+        </verify>
     </concept>
 
     <concept id="jakarta-ee-dependencies:PlatformDependencyReport">
