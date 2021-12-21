@@ -38,7 +38,7 @@
         </verify>
     </concept>
 
-    <concept id="jakarta-ee-dependencies:PlatformDependencyReport">
+    <concept id="jakarta-ee-dependencies:PlatformDependencyDiagram">
         <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
         <requiresConcept refId="jakarta-ee-dependencies:RemoveArtifactTimestamp" />
         <description>Creates reports about dependencies as GraphML file and PlantUML component diagram.</description>
@@ -53,6 +53,24 @@
               *
         ]]></cypher>
         <report type="graphml,plantuml-component-diagram" />
+    </concept>
+
+    <concept id="jakarta-ee-dependencies:PlatformDependencyVersionsByArtifact">
+        <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
+        <description>Creates a CSV report about dependency versions.</description>
+        <cypher><![CDATA[
+            MATCH
+              (platform:Artifact)
+            WHERE
+              platform.fqn="jakarta.platform:jakarta.jakartaee-api:jar:9.1.0"
+            MATCH
+              (platform)-[d:DEPENDS_ON*]->(dependency:Artifact)
+            RETURN
+               dependency.group as GroupId, dependency.name as ArtifactId, collect(distinct dependency.version) as Version
+            ORDER BY
+              GroupId, ArtifactId
+            ]]></cypher>
+        <report type="csv" />
     </concept>
 
 </jqassistant-rules>
