@@ -21,13 +21,15 @@
         </verify>
     </concept>
 
-    <concept id="jakarta-ee-dependencies:RemoveArtifactTimestamp">
-        <description>Removes timestamp attributes (for GraphML reports).</description>
+    <concept id="jakarta-ee-dependencies:ArtifactLastModifiedAsString">
+        <description>Converts the lastModified timestamp attribute of Artifacts to a String representation (for GraphML reports).</description>
         <cypher><![CDATA[
             MATCH
               (artifact:Artifact)
             WHERE
               exists(artifact.lastModified)
+            SET
+              artifact.lastModificationTime = toString(datetime({epochMillis:artifact.lastModified}))
             REMOVE
               artifact.lastModified
             RETURN
@@ -40,7 +42,7 @@
 
     <concept id="jakarta-ee-dependencies:PlatformDependencyDiagram">
         <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
-        <requiresConcept refId="jakarta-ee-dependencies:RemoveArtifactTimestamp" />
+        <requiresConcept refId="jakarta-ee-dependencies:ArtifactLastModifiedAsString" />
         <description>Creates reports about dependencies as GraphML file and PlantUML component diagram.</description>
         <cypher><![CDATA[
             MATCH
