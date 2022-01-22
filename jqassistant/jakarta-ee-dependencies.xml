@@ -7,15 +7,22 @@
     <concept id="jakarta-ee-dependencies:ArtifactDependencies">
         <description>Propagates dependencies declared by Pom descriptor to artifacts.</description>
         <cypher><![CDATA[
-            MATCH
-              (pom:Effective:Pom),
-              (pom)-[:DESCRIBES]->(artifact:Artifact),
-              (pom)-[:DECLARES_DEPENDENCY]->()-[:TO_ARTIFACT]->(dependency:Artifact)
-            MERGE
-              (artifact)-[:DEPENDS_ON]->(dependency)
-            RETURN
-              count(*)
-        ]]></cypher>
+            call apoc.periodic.iterate(
+                "MATCH
+                   (pom:Effective:Pom),
+                   (pom)-[:DESCRIBES]->(artifact:Artifact),
+                   (pom)-[:DECLARES_DEPENDENCY]->(dependency:Dependency)-[:TO_ARTIFACT]->(dependencyArtifact:Artifact)
+                 RETURN
+                   artifact, dependency, dependencyArtifact",
+                "MERGE
+                   (artifact)-[dependsOn:DEPENDS_ON]->(dependencyArtifact)
+                 SET
+                   dependsOn.scope = dependency.scope,
+                   dependsOn.optional = dependency.optional",
+                {})
+                YIELD
+                  total as `Artifact Dependencies`
+            ]]></cypher>
         <verify>
           <aggregation />
         </verify>
