@@ -1,0 +1,95 @@
+:toc:
+= Jakarta EE Dependencies
+
+This document provides reports about the dependencies of the Jakarta EE platform specification.
+
+[[jakarta-ee-dependencies]]
+[role=group,includesConcepts="jakarta-ee-dependencies:*"]
+== Reports
+
+=== Dependency Overview
+
+The first report provides an overview of all transitive dependencies of the Jakarta EE Platform.
+
+[[jakarta-ee-dependencies:PlatformDependencyDiagram]]
+[source,cypher,role=concept,requiresConcepts="jakarta-ee-dependencies:ArtifactDependencies,jakarta-ee-dependencies:ArtifactLastModifiedAsString",reportType="graphml,plantuml-component-diagram"]
+.Jakarta EE Platform dependencies as GraphML file and PlantUML component diagram.
+----
+MATCH
+  (platform:Artifact)
+WHERE
+  platform.fqn="jakarta.platform:jakarta.jakartaee-api:jar:9.1.0"
+MATCH
+  (platform)-[d:DEPENDS_ON*]->(dependency:Artifact)
+RETURN
+  *
+----
+
+TIP: GraphML reports may be viewed using https://www.yworks.com/en/products/yfiles/yed/[yEd].
+  After opening a file you should apply a layout, e.g. `Layout->Hierarchical` (Alt-Shift-H) and property mapping (`Edit->Properties Mapper`) for nodes should be set to use `fqn` or `name` as `Label Text`.
+  +
+  +
+  An Open Source alternative is https://gephi.org/[Gephi].
+  After opening the file `Show Node label(s)` must be activated in the tool palette at the bottom and `fqn` or `name` selected in `Attributes` to be displayed as node label.
+
+=== Specification Versions
+
+A specification might be referenced as dependency in different versions. This case is covered by the following report:
+
+[[jakarta-ee-dependencies:PlatformDependencyVersionsByArtifact]]
+[source,cypher,role=concept,requiresConcepts="jakarta-ee-dependencies:ArtifactDependencies",reportType="csv"]
+.CSV report about versions per specification which referenced by the Jakarta EE platform.
+----
+MATCH
+  (platform:Artifact)
+WHERE
+  platform.fqn="jakarta.platform:jakarta.jakartaee-api:jar:9.1.0"
+MATCH
+  (platform)-[d:DEPENDS_ON*]->(dependency:Artifact)
+RETURN
+   dependency.group as GroupId, dependency.name as ArtifactId, collect(distinct dependency.version) as Version
+ORDER BY
+  GroupId, ArtifactId
+----
+
+== Concepts
+
+This section provides additional concepts which are required by the reports above.
+
+[[jakarta-ee-dependencies:ArtifactDependencies]]
+.Propagation of dependencies declared by POM descriptor to their described artifacts.
+[source,cypher,role=concept,verify=aggregation]
+----
+call apoc.periodic.iterate(
+    "MATCH
+       (pom:Effective:Pom),
+       (pom)-[:DESCRIBES]->(artifact:Artifact),
+       (pom)-[:DECLARES_DEPENDENCY]->(dependency:Dependency)-[:TO_ARTIFACT]->(dependencyArtifact:Artifact)
+     RETURN
+       artifact, dependency, dependencyArtifact",
+    "MERGE
+       (artifact)-[dependsOn:DEPENDS_ON]->(dependencyArtifact)
+     SET
+       dependsOn.scope = dependency.scope,
+       dependsOn.optional = dependency.optional",
+    {})
+    YIELD
+      total as `Artifact Dependencies`
+----
+
+[[jakarta-ee-dependencies:ArtifactLastModifiedAsString]]
+.Converts the `lastModified` timestamp attribute of artifacts to a ISO 8601 string representation (for GraphML reports).
+[source,cypher,role=concept,verify=aggregation,severity=info]
+----
+MATCH
+  (artifact:Artifact)
+WHERE
+  exists(artifact.lastModified)
+SET
+  artifact.lastModificationTime = toString(datetime({epochMillis:artifact.lastModified}))
+REMOVE
+  artifact.lastModified
+RETURN
+  count(artifact) as `Converted Timestamps`
+----
+

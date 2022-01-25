@@ -31,7 +31,7 @@ TIP: GraphML reports may be viewed using https://www.yworks.com/en/products/yfil
 An Open Source alternative is https://gephi.org/[Gephi]. After opening the file `Show Node label(s)` must be activated in the tool palette at the bottom and `fqn` or `name` selected in `Attributes` to be displayed as node label.
 ** `csv/jakarta-ee-dependencies_PlatformDependencyVersionsByArtifact.csv`: The dependencies as CSV collection all versions grouped by groupId and artifactId.
 
-TIP: The reports are created using Cypher queries and implemented as jQAssistant rules which are located in link:jqassistant/jakarta-ee-dependencies.xml[].
+TIP: The reports are created using Cypher queries and implemented as jQAssistant rules which are located in link:jqassistant/index.adoc[].
 
 == Known Issues
 
