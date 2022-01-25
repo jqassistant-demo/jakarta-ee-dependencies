@@ -8,8 +8,13 @@ image:example/jakarta-ee-dependencies_PlatformDependencyDiagram.svg[]
 
 == Requirements
 
-* Java Development Kit 8 or 11
+* Java Development Kit 8 or later
 * Maven 3.5.x or later
+
+TIP: The following JVM parameters are required if Java 16 or later is used as runtime environment:
+  +
+  +
+`set  MAVEN_OPTS=--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED`
 
 == How To Use It
 
