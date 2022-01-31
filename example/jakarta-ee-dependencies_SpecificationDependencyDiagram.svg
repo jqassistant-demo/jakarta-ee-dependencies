@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1085px" preserveAspectRatio="none" style="width:11324px;height:1085px;background:#FFFFFF;" version="1.1" viewBox="0 0 11324 1085" width="11324px" zoomAndPan="magnify"><defs><filter height="300%" id="f2ml6aoaepx1l" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[2f7e18bb5fa5abd2f2641e1d71288136]
+cluster jakarta.jakartaee-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="9321,6,9469,6,9476,29.6094,9681,29.6094,9681,143,9321,143,9321,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="9321" x2="9476" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="142" x="9325" y="22.5332">jakarta.jakartaee-api</text><!--MD5=[7da0297115017d533f54a49893d1dd4c]
+cluster jakarta.jakartaee-web-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="3882,193,4064,193,4071,216.6094,4272,216.6094,4272,330,3882,330,3882,193" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3882" x2="4071" y1="216.6094" y2="216.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="176" x="3886" y="209.5332">jakarta.jakartaee-web-api</text><!--MD5=[c81e90574d15cba58868376d8ca9fe67]
+cluster jakarta.enterprise.cdi-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="1943,567,2125,567,2132,590.6094,2770,590.6094,2770,704,1943,704,1943,567" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1943" x2="2132" y1="590.6094" y2="590.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="176" x="1947" y="583.5332">jakarta.enterprise.cdi-api</text><!--MD5=[98662b8afb6a43b060e5949f6299a774]
+cluster jakarta.el-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="4246,754,4342,754,4349,777.6094,4827,777.6094,4827,891,4246,891,4246,754" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="4246" x2="4349" y1="777.6094" y2="777.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="4250" y="770.5332">jakarta.el-api</text><!--MD5=[08dc81cd998429e7d69306c1096e871c]
+cluster jakarta.ejb-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="4904,380,5009,380,5016,403.6094,5517,403.6094,5517,517,4904,517,4904,380" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="4904" x2="5016" y1="403.6094" y2="403.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="99" x="4908" y="396.5332">jakarta.ejb-api</text><!--MD5=[fefa813665c7ee0fdc930a60319972db]
+cluster jakarta.transaction-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="909,380,1071,380,1078,403.6094,2578,403.6094,2578,517,909,517,909,380" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="909" x2="1078" y1="403.6094" y2="403.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="156" x="913" y="396.5332">jakarta.transaction-api</text><!--MD5=[99898c4e3044d5bd79365398e1ea0245]
+cluster jakarta.interceptor-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="1910,754,2072,754,2079,777.6094,2719,777.6094,2719,891,1910,891,1910,754" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1910" x2="2079" y1="777.6094" y2="777.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="156" x="1914" y="770.5332">jakarta.interceptor-api</text><!--MD5=[388a92da94a5be2cb95543817585c9b5]
+cluster jakarta.annotation-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="1541,941,1699,941,1706,964.6094,2312,964.6094,2312,1078,1541,1078,1541,941" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1541" x2="1706" y1="964.6094" y2="964.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="152" x="1545" y="957.5332">jakarta.annotation-api</text><!--MD5=[a574d6c331a3d64768e519f7e883adff]
+cluster jakarta.inject-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="995,754,1117,754,1124,777.6094,1664,777.6094,1664,891,995,891,995,754" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="995" x2="1124" y1="777.6094" y2="777.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="116" x="999" y="770.5332">jakarta.inject-api</text><!--MD5=[6dcb8ba64c3e3e174333090b65adee3c]
+cluster jakarta.servlet.jsp-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="6505,567,6663,567,6670,590.6094,6883,590.6094,6883,704,6505,704,6505,567" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6505" x2="6670" y1="590.6094" y2="590.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="152" x="6509" y="583.5332">jakarta.servlet.jsp-api</text><!--MD5=[6934b9cfb14f1990375c6cd63244a751]
+cluster jakarta.servlet-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="7089,754,7222,754,7229,777.6094,7423,777.6094,7423,891,7089,891,7089,754" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="7089" x2="7229" y1="777.6094" y2="777.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="127" x="7093" y="770.5332">jakarta.servlet-api</text><!--MD5=[913a4a0627b746791213cb08383b081f]
+cluster jakarta.servlet.jsp.jstl-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="7059,380,7242,380,7249,403.6094,7479,403.6094,7479,517,7059,517,7059,380" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="7059" x2="7249" y1="403.6094" y2="403.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="177" x="7063" y="396.5332">jakarta.servlet.jsp.jstl-api</text><!--MD5=[f5a686c17782700312f701bcc8bb7aff]
+cluster jakarta.xml.bind-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="7656,567,7798,567,7805,590.6094,8363,590.6094,8363,704,7656,704,7656,567" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="7656" x2="7805" y1="590.6094" y2="590.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="136" x="7660" y="583.5332">jakarta.xml.bind-api</text><!--MD5=[d20a0c704cd69c9ddb8c82158e88013e]
+cluster jakarta.faces-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="6406,193,6527,193,6534,216.6094,6724,216.6094,6724,330,6406,330,6406,193" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6406" x2="6534" y1="216.6094" y2="216.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="115" x="6410" y="209.5332">jakarta.faces-api</text><!--MD5=[7ef68cae34abb03c1fd866d740867978]
+cluster jakarta.validation-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="5591,380,5743,380,5750,403.6094,5961,403.6094,5961,517,5591,517,5591,380" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="5591" x2="5750" y1="403.6094" y2="403.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="146" x="5595" y="396.5332">jakarta.validation-api</text><!--MD5=[61ecc02e2bcb955ae02625b1bda9a646]
+cluster jakarta.json-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="3510,567,3623,567,3630,590.6094,4117,590.6094,4117,704,3510,704,3510,567" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3510" x2="3630" y1="590.6094" y2="590.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="107" x="3514" y="583.5332">jakarta.json-api</text><!--MD5=[8d92d1e964ddb5114abdafbbf82df784]
+cluster jakarta.persistence-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="4484,380,4651,380,4658,403.6094,4880,403.6094,4880,517,4484,517,4484,380" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="4484" x2="4658" y1="403.6094" y2="403.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="161" x="4488" y="396.5332">jakarta.persistence-api</text><!--MD5=[66d6c5df998d954a37e50418e325ed9b]
+cluster jakarta.xml.ws-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="8411,380,8541,380,8548,403.6094,9074,403.6094,9074,517,8411,517,8411,380" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="8411" x2="8548" y1="403.6094" y2="403.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="124" x="8415" y="396.5332">jakarta.xml.ws-api</text><!--MD5=[9993516d805c94aa63b28c4c8b1bc3cc]
+cluster jakarta.jws-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="8612,567,8718,567,8725,590.6094,8900,590.6094,8900,704,8612,704,8612,567" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="8612" x2="8725" y1="590.6094" y2="590.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="100" x="8616" y="583.5332">jakarta.jws-api</text><!--MD5=[60264a6482a0366dbf28fb42f7803cf1]
+cluster jakarta.xml.soap-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="8924,567,9069,567,9076,590.6094,9647,590.6094,9647,704,8924,704,8924,567" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="8924" x2="9076" y1="590.6094" y2="590.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="139" x="8928" y="583.5332">jakarta.xml.soap-api</text><!--MD5=[0ded123227cd715ab00e439964fd1531]
+cluster jakarta.authentication-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="3354,380,3538,380,3545,403.6094,3782,403.6094,3782,517,3354,517,3354,380" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3354" x2="3545" y1="403.6094" y2="403.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="178" x="3358" y="396.5332">jakarta.authentication-api</text><!--MD5=[47ff22c2123e9417953b68a8031f968c]
+cluster jakarta.json.bind-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="2966,380,3114,380,3121,403.6094,3330,403.6094,3330,517,2966,517,2966,380" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2966" x2="3121" y1="403.6094" y2="403.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="142" x="2970" y="396.5332">jakarta.json.bind-api</text><!--MD5=[f26742cb40c70d657640c3ffaa13bea7]
+cluster jakarta.enterprise.concurrent-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="9751,193,9990,193,9997,216.6094,10273,216.6094,10273,330,9751,330,9751,193" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="9751" x2="9997" y1="216.6094" y2="216.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="233" x="9755" y="209.5332">jakarta.enterprise.concurrent-api</text><!--MD5=[2fef809aa820e76beb080f458f47cb86]
+cluster jakarta.authorization-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="9696,567,9871,567,9878,590.6094,10108,590.6094,10108,704,9696,704,9696,567" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="9696" x2="9878" y1="590.6094" y2="590.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="9700" y="583.5332">jakarta.authorization-api</text><!--MD5=[c46159b3345c23eda700aaa50aff8a85]
+cluster jakarta.batch-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="479,380,601,380,608,403.6094,799,403.6094,799,517,479,517,479,380" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="479" x2="608" y1="403.6094" y2="403.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="116" x="483" y="396.5332">jakarta.batch-api</text><!--MD5=[10831b5b99bf5f10f144b86b90533f27]
+cluster jakarta.mail-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="10297,193,10408,193,10415,216.6094,10597,216.6094,10597,330,10297,330,10297,193" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="10297" x2="10415" y1="216.6094" y2="216.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="105" x="10301" y="209.5332">jakarta.mail-api</text><!--MD5=[6d8a97cd0cef9626e4e73f218beb077f]
+cluster jakarta.jms-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="10621,193,10728,193,10735,216.6094,10913,216.6094,10913,330,10621,330,10621,193" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="10621" x2="10735" y1="216.6094" y2="216.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="101" x="10625" y="209.5332">jakarta.jms-api</text><!--MD5=[a1d1bdc92240bac9e47a1c2da018b188]
+cluster jakarta.activation-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="10937,193,11089,193,11096,216.6094,11307,216.6094,11307,330,10937,330,10937,193" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="10937" x2="11096" y1="216.6094" y2="216.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="146" x="10941" y="209.5332">jakarta.activation-api</text><!--MD5=[62e72ac1d2964f2fe80c1e2535300563]
+cluster jakarta.resource-api--><polygon fill="#FFFFFF" filter="url(#f2ml6aoaepx1l)" points="137,193,284,193,291,216.6094,499,216.6094,499,330,137,330,137,193" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="137" x2="291" y1="216.6094" y2="216.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="141" x="141" y="209.5332">jakarta.resource-api</text><!--MD5=[4b4336dd810a018acc91a0137e6969c2]
+entity n23548--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="328" x="9337" y="62"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="9645" y="67"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="9643" y="69"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="9643" y="73"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="245" x="9373.5" y="96.5332">«Artifact File Maven Platform Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="288" x="9352" y="114.1426">jakarta.platform:jakarta.jakartaee-api:jar:9.1.0</text><!--MD5=[02f9708239137ab51394c2219a9d454c]
+entity n22681--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="358" x="3898" y="249"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4236" y="254"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4234" y="256"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4234" y="260"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="3977.5" y="283.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="318" x="3913" y="301.1426">jakarta.platform:jakarta.jakartaee-web-api:jar:9.1.0</text><!--MD5=[7f4e8b42069b5f77f10c5984bb828928]
+entity n7577--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="368" x="2386" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2734" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2732" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2732" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="2470.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="328" x="2401" y="675.1426">jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0</text><!--MD5=[887d654eb0ebf4a6a27a46f573ee6234]
+entity n109173--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="392" x="1959" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2331" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2329" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2329" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="2055.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="352" x="1974" y="675.1426">jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1</text><!--MD5=[6361cd69fdfcde99bdac1309474543a6]
+entity n7582--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="240" x="4571" y="810"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4791" y="815"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4789" y="817"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4789" y="821"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="4591.5" y="844.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="4586" y="862.1426">jakarta.el:jakarta.el-api:jar:4.0.0</text><!--MD5=[3b2b3bf5ffcc2b42d98220e6d29e1c48]
+entity n528--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="273" x="4262.5" y="810"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4515.5" y="815"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4513.5" y="817"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4513.5" y="821"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="4299.5" y="844.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="233" x="4277.5" y="862.1426">jakarta.el:jakarta.el-api:jar:4.0.0-RC1</text><!--MD5=[f32a4b6384e457a7652ac5ed54af537c]
+entity n5768--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="289" x="5211.5" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5480.5" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5478.5" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5478.5" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="5256.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="5226.5" y="488.1426">jakarta.ejb:jakarta.ejb-api:jar:4.0.0-RC2</text><!--MD5=[1f655cb140fe896b3c2680a16fd26988]
+entity n22727--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="256" x="4920" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5156" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5154" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5154" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="4948.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="4935" y="488.1426">jakarta.ejb:jakarta.ejb-api:jar:4.0.0</text><!--MD5=[06cd4ebfe609cabbebc425d812ff0ebc]
+entity n4814--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="391" x="925.5" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1296.5" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1294.5" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1294.5" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="1021.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="351" x="940.5" y="488.1426">jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC1</text><!--MD5=[eba60d36088e911de2a42ebb20f8782a]
+entity n5769--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="391" x="1777.5" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2148.5" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2146.5" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2146.5" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="1873.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="351" x="1792.5" y="488.1426">jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC2</text><!--MD5=[9c9c3106cbc69313cd56d333376a86d2]
+entity n22728--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="358" x="2204" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2542" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2540" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2540" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="2283.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="318" x="2219" y="488.1426">jakarta.transaction:jakarta.transaction-api:jar:2.0.0</text><!--MD5=[466bbf18175f277dfb73da706c6028e7]
+entity n217798--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="391" x="1351.5" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1722.5" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1720.5" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1720.5" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="1447.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="351" x="1366.5" y="488.1426">jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC3</text><!--MD5=[95ee279a9d60c0d196874ac221a963ae]
+entity n109174--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="387" x="1926.5" y="810"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2293.5" y="815"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2291.5" y="817"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2291.5" y="821"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="2020.5" y="844.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="347" x="1941.5" y="862.1426">jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1</text><!--MD5=[93da9a3e34b2b6039df91f8362cba301]
+entity n7578--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="354" x="2349" y="810"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2683" y="815"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2681" y="817"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2681" y="821"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="2426.5" y="844.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="314" x="2364" y="862.1426">jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0</text><!--MD5=[e30609214041dcb60f35d98bab1a980b]
+entity n35849--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="352" x="1944" y="997"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2276" y="1002"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2274" y="1004"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2274" y="1008"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="2020.5" y="1031.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="312" x="1959" y="1049.1426">jakarta.annotation:jakarta.annotation-api:jar:1.3.5</text><!--MD5=[8199935ecdb901ffa8eea09ff7bca79f]
+entity n7579--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="352" x="1557" y="997"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1889" y="1002"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1887" y="1004"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1887" y="1008"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="1633.5" y="1031.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="312" x="1572" y="1049.1426">jakarta.annotation:jakarta.annotation-api:jar:2.0.0</text><!--MD5=[a6fac0bcb1db1f85b2d084b036aa6a88]
+entity n115356--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="317" x="1330.5" y="810"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1627.5" y="815"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1625.5" y="817"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1625.5" y="821"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="1389.5" y="844.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="277" x="1345.5" y="862.1426">jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2</text><!--MD5=[c9cf8a77f63c8e037ea53a5a21083654]
+entity n7581--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="284" x="1011" y="810"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1275" y="815"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1273" y="817"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1273" y="821"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="1053.5" y="844.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="1026" y="862.1426">jakarta.inject:jakarta.inject-api:jar:2.0.0</text><!--MD5=[636a62b43997ffcda00e925a0562a2f9]
+entity n16681--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="346" x="6521" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6847" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6845" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6845" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="6594.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="306" x="6536" y="675.1426">jakarta.servlet.jsp:jakarta.servlet.jsp-api:jar:3.0.0</text><!--MD5=[c460475e201845b6c1bbf2f65ed9ffc7]
+entity n7580--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="302" x="7105" y="810"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="7387" y="815"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="7385" y="817"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="7385" y="821"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="7156.5" y="844.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="262" x="7120" y="862.1426">jakarta.servlet:jakarta.servlet-api:jar:5.0.0</text><!--MD5=[f2dc98b4db1a7e359930cbd67f4a28fe]
+entity n22722--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="388" x="7075" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="7443" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="7441" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="7441" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="7169.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="348" x="7090" y="488.1426">jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:2.0.0</text><!--MD5=[b6d907f5ad007dc46fcc0a62f49313fb]
+entity n35205--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="320" x="7672" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="7972" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="7970" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="7970" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="7732.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="280" x="7687" y="675.1426">jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.0</text><!--MD5=[725e795eced37be14b695d23dbe39785]
+entity n23196--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="320" x="8027" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="8327" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="8325" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="8325" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="8087.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="280" x="8042" y="675.1426">jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1</text><!--MD5=[ec893d59f94cb89111b4d074decc32d8]
+entity n22723--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="286" x="6422" y="249"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="6688" y="254"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6686" y="256"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="6686" y="260"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="6465.5" y="283.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="246" x="6437" y="301.1426">jakarta.faces:jakarta.faces-api:jar:3.0.0</text><!--MD5=[fb75f782dfce509409d73fb1076eb1d8]
+entity n22729--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="338" x="5607" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="5925" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5923" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="5923" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="5676.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="298" x="5622" y="488.1426">jakarta.validation:jakarta.validation-api:jar:3.0.0</text><!--MD5=[68b9112714139e541e451aedab540b9d]
+entity n34745--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="270" x="3526" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3776" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3774" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3774" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="3561.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="230" x="3541" y="675.1426">jakarta.json:jakarta.json-api:jar:2.0.0</text><!--MD5=[9af2e5d1472a746755a0170dde9057f5]
+entity n22725--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="270" x="3831" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4081" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4079" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4079" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="3866.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="230" x="3846" y="675.1426">jakarta.json:jakarta.json-api:jar:2.0.1</text><!--MD5=[73bc3d9b8c2ea728a36eaf6d99979ddd]
+entity n16682--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="364" x="4500" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="4844" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4842" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="4842" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="4582.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="324" x="4515" y="488.1426">jakarta.persistence:jakarta.persistence-api:jar:3.0.0</text><!--MD5=[bf6a94e253bd1b805fb00fe5c30f0627]
+entity n35206--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="298" x="8427" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="8705" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="8703" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="8703" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="8476.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="258" x="8442" y="488.1426">jakarta.xml.ws:jakarta.xml.ws-api:jar:3.0.0</text><!--MD5=[0af4b778e8198c1970c7dcdb608b5708]
+entity n23197--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="298" x="8760" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="9038" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="9036" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="9036" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="8809.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="258" x="8775" y="488.1426">jakarta.xml.ws:jakarta.xml.ws-api:jar:3.0.1</text><!--MD5=[58d1f7883cc5999a37117a3a1c704fac]
+entity n16684--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="256" x="8628" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="8864" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="8862" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="8862" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="8656.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="8643" y="675.1426">jakarta.jws:jakarta.jws-api:jar:3.0.0</text><!--MD5=[65931f06ee7bb35e4c5b5d23ddca65f5]
+entity n35207--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="328" x="8940" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="9248" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="9246" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="9246" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="9004.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="288" x="8955" y="675.1426">jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.0</text><!--MD5=[e4e740ddf04caef4869f7226916d746d]
+entity n23198--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="328" x="9303" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="9611" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="9609" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="9609" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="9367.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="288" x="9318" y="675.1426">jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.1</text><!--MD5=[6c548739e7031f99b40ce0d3ea55551d]
+entity n22730--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="396" x="3370" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3746" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3744" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3744" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="3468.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="356" x="3385" y="488.1426">jakarta.authentication:jakarta.authentication-api:jar:2.0.0</text><!--MD5=[8f6f3b23f84f8f7fa137e7d77d00d1ea]
+entity n22726--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="332" x="2982" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3294" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3292" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3292" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="3048.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="292" x="2997" y="488.1426">jakarta.json.bind:jakarta.json.bind-api:jar:2.0.0</text><!--MD5=[d55f52a8de18d45b0904d72ca0e85175]
+entity n23194--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="490" x="9767" y="249"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="10237" y="254"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="10235" y="256"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="10235" y="260"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="9912.5" y="283.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="450" x="9782" y="301.1426">jakarta.enterprise.concurrent:jakarta.enterprise.concurrent-api:jar:2.0.0</text><!--MD5=[c22e757b853128bb1ac4606e09bdfe59]
+entity n20655--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="380" x="9712" y="623"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="10072" y="628"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="10070" y="630"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="10070" y="634"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="9802.5" y="657.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="340" x="9727" y="675.1426">jakarta.authorization:jakarta.authorization-api:jar:2.0.0</text><!--MD5=[a090d992d51fee2cdad285b5c7ffc747]
+entity n23195--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="288" x="495" y="436"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="763" y="441"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="761" y="443"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="761" y="447"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="539.5" y="470.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="248" x="510" y="488.1426">jakarta.batch:jakarta.batch-api:jar:2.0.0</text><!--MD5=[a04600d6a6fc36763358543a2dc58fa7]
+entity n23191--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="268" x="10313" y="249"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="10561" y="254"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="10559" y="256"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="10559" y="260"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="10347.5" y="283.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="228" x="10328" y="301.1426">jakarta.mail:jakarta.mail-api:jar:2.0.1</text><!--MD5=[0bbd5200fee918a9c97939bb5aebe2fe]
+entity n23189--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="260" x="10637" y="249"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="10877" y="254"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="10875" y="256"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="10875" y="260"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="10667.5" y="283.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="220" x="10652" y="301.1426">jakarta.jms:jakarta.jms-api:jar:3.0.0</text><!--MD5=[a64f71061a45224ed642b4bc980db55e]
+entity n23190--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="338" x="10953" y="249"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="11271" y="254"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="11269" y="256"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="11269" y="260"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="11022.5" y="283.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="298" x="10968" y="301.1426">jakarta.activation:jakarta.activation-api:jar:2.0.1</text><!--MD5=[38280cbd7905df607a288e1a0e3bea4d]
+entity n23193--><rect fill="#FEFECE" filter="url(#f2ml6aoaepx1l)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="330" x="153" y="249"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="463" y="254"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="461" y="256"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="461" y="260"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="189" x="218.5" y="283.5332">«Artifact File Maven Release»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="290" x="168" y="301.1426">jakarta.resource:jakarta.resource-api:jar:2.0.0</text><!--MD5=[29b0a0218243a9d9a6a9fa03908a38fb]
+link n23548 to n22681--><path d="M9336.98,99.55 C8875.49,111.08 7526.45,145.83 6406,185 C5607.48,212.92 4655.32,254.58 4261.49,272.18 " fill="none" id="n23548-to-n22681" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="4256.31,272.41,4265.4837,275.9936,4261.3048,272.181,4265.1174,268.002,4256.31,272.41" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="7171" y="173.4951">depends on (scope:compile, optional:true)</text><!--MD5=[72551f9b43313d858fbf9ec37a8b8a9a]
+link n22681 to n7577--><path d="M3897.83,287.14 C3525.52,297.68 2699.31,326.15 2659,372 C2614.11,423.07 2611.6,476.24 2659,525 C2680.85,547.48 2919.15,510.52 2941,533 C2946.58,538.74 2946.53,545.22 2941,551 C2927.24,565.39 2781.27,554.01 2762,559 C2712.47,571.81 2660.79,598.38 2623.55,620.26 " fill="none" id="n22681-to-n7577" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2619.08,622.9,2628.8629,621.7619,2623.3838,620.3549,2624.7907,614.8758,2619.08,622.9" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="2660" y="473.9951">depends on (scope:compile, optional:true)</text><!--MD5=[2b661f8a9821edd4fa4b5654b8d72b63]
+link n7577 to n7582--><path d="M2732.56,688.05 C2787.15,697.41 2848.52,706.59 2905,712 C3012.77,722.32 3770.76,735.91 3879,738 C3897.72,738.36 4535.16,740.31 4553,746 C4590.94,758.1 4627.71,784.5 4653.74,806.49 " fill="none" id="n7577-to-n7582" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="4657.82,809.97,4653.5899,801.0759,4654.0237,806.716,4648.3835,807.1499,4657.82,809.97" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="3880" y="734.4951">depends on (scope:compile, optional:false)</text><!--MD5=[b18f6654bd820d4c0d4199c7764c1c5e]
+link n7577 to n5768--><path d="M2661.98,622.97 C2728.65,601.43 2821.39,574.14 2905,559 C2948.44,551.13 2960.39,557.82 3004,551 C3038.72,545.57 3046.09,537.09 3081,533 C3197.59,519.33 5078.24,544.5 5194,525 C5221.32,520.4 5250.22,511.79 5275.93,502.7 " fill="none" id="n7577-to-n5768" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="5280.69,501,5270.868,500.2733,5275.9836,502.688,5273.5688,507.8036,5280.69,501" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="3082" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[3d346388846a7be15eca2341d8df8b48]
+link n5768 to n4814--><path d="M5315.55,435.97 C5284.39,413.1 5239.13,384.44 5194,372 C5067.44,337.11 4143.78,371.06 4012.5,371 C3863.69,370.94 1479.45,340.56 1334,372 C1279.25,383.84 1221.65,410.94 1180.17,433.42 " fill="none" id="n5768-to-n4814" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1175.7,435.86,1185.5174,435.0731,1180.0922,433.4708,1181.6946,428.0456,1175.7,435.86" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="3764.5" y="360.4951">depends on (scope:compile, optional:false)</text><!--MD5=[a4108c6845c1417df1888dd53fd346fc]
+link n4814 to n109173--><path d="M1173.6,501 C1207.53,519.48 1253.33,541.09 1297,551 C1365.81,566.61 1862.97,544.39 1932,559 C1989.25,571.12 2050.04,598.21 2093.67,620.46 " fill="none" id="n4814-to-n109173" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2098.37,622.87,2092.1969,615.1958,2093.9239,620.5826,2088.5371,622.3096,2098.37,622.87" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="1298" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[fd37e4699962bed3dbefe50cc6f7538b]
+link n109173 to n109174--><path d="M2148.98,688.3 C2142.88,720.57 2133.44,770.47 2127,804.48 " fill="none" id="n109173-to-n109174" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2126,809.8,2131.6015,801.6992,2126.9283,804.8869,2123.7406,800.2138,2126,809.8" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="2144" y="734.4951">depends on (scope:compile, optional:false)</text><!--MD5=[acee158fcc926e33e37ae0d96c1c2003]
+link n109174 to n35849--><path d="M2120,875.3 C2120,907.57 2120,957.47 2120,991.48 " fill="none" id="n109174-to-n35849" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2120,996.8,2124,987.8,2120,991.8,2116,987.8,2120,996.8" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="2121" y="921.4951">depends on (scope:compile, optional:false)</text><!--MD5=[5c4832f0b775707d5fa2efcb98f374f7]
+link n109173 to n528--><path d="M2268.99,688.07 C2300.9,696.4 2335.69,705 2368,712 C2434.13,726.32 2450.72,730.86 2518,738 C2606.91,747.43 2629.7,741.69 2719,746 C3289.38,773.56 3968.21,814.71 4257.32,832.63 " fill="none" id="n109173-to-n528" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="4262.39,832.95,4253.6465,828.4167,4257.399,832.6497,4253.166,836.4022,4262.39,832.95" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="2519" y="734.4951">depends on (scope:compile, optional:false)</text><!--MD5=[3e2620c84a3a6484f296af7d52658ed3]
+link n109173 to n115356--><path d="M2035.92,688.06 C2002.43,696.41 1965.9,705.03 1932,712 C1910.39,716.45 1904.48,714.96 1883,720 C1779.35,744.32 1663.14,781.39 1583.96,808.19 " fill="none" id="n109173-to-n115356" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1578.8,809.94,1588.6073,810.8443,1583.5362,808.3374,1586.0431,803.2664,1578.8,809.94" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="1884" y="734.4951">depends on (scope:compile, optional:false)</text><!--MD5=[829295aa68a061596f6ffc8abd4c2b3f]
+link n4814 to n109174--><path d="M1118.55,501.16 C1115.48,518.5 1108.73,538.88 1094,551 C1072.21,568.94 1049.66,537.82 1031,559 C986.05,610.02 984.96,661.95 1031,712 C1078.69,763.84 1594.04,737.87 1664,746 C1776.76,759.1 1902.94,786.54 1993.93,808.66 " fill="none" id="n4814-to-n109174" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1999.05,809.91,1991.2554,803.8897,1994.1926,808.7242,1989.3581,811.6615,1999.05,809.91" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="1032" y="660.9951">depends on (scope:provided, optional:false)</text><!--MD5=[85004441d79d17fa666b7eb0f250a1ae]
+link n7577 to n7578--><path d="M2754.04,684.1 C2779.19,696.1 2791.48,713.31 2775,738 C2753.43,770.33 2719.66,792.58 2683.87,807.88 " fill="none" id="n7577-to-n7578" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2679.04,809.9,2688.8864,810.12,2683.6533,807.9719,2685.8014,802.7387,2679.04,809.9" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="2783" y="734.4951">depends on (scope:compile, optional:false)</text><!--MD5=[45e4ece025ca472380c322c059c49b50]
+link n7578 to n7579--><path d="M2481.79,875.11 C2453.35,893.51 2414.76,914.99 2377,925 C2328.55,937.84 1974.7,921.15 1926,933 C1875.73,945.23 1823.42,972.14 1785.96,994.29 " fill="none" id="n7578-to-n7579" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1781.46,996.96,1791.2372,995.7739,1785.7512,994.3938,1787.1313,988.9079,1781.46,996.96" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="2426" y="921.4951">depends on (scope:compile, optional:false)</text><!--MD5=[534df66da94d8ab2054f79bc8c3d43c0]
+link n7577 to n7581--><path d="M2474.99,688.04 C2441.56,697.68 2403.48,707.04 2368,712 C2279.19,724.43 1650.52,714.87 1561,720 C1450.35,726.33 1418.16,711 1313,746 C1271.6,759.78 1229.42,785.54 1198.76,806.84 " fill="none" id="n7577-to-n7581" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1194.33,809.95,1204.0009,808.0861,1198.4322,807.0913,1199.427,801.5226,1194.33,809.95" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="1562" y="734.4951">depends on (scope:compile, optional:false)</text><!--MD5=[8943416b29de60875a8ec0b997544aab]
+link n7577 to n5769--><path d="M2625.17,622.87 C2662.54,597.64 2700.39,561.86 2672,533 C2662.53,523.37 2199.38,526.83 2186,525 C2150.63,520.17 2112.72,511.48 2078.82,502.38 " fill="none" id="n7577-to-n5769" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2073.85,501.04,2081.4835,507.2633,2078.6745,502.3532,2083.5846,499.5441,2073.85,501.04" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="2683" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[85d2f5e6991e7b4ff740613c957a0c7d]
+link n5769 to n109173--><path d="M1859.49,501.19 C1832.58,514.13 1816.43,530.84 1835,551 C1842.33,558.95 1921.5,556.39 1932,559 C1987.8,572.86 2047.51,599.1 2091.09,620.57 " fill="none" id="n5769-to-n109173" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2095.78,622.9,2089.4803,615.3295,2091.2965,620.6868,2085.9391,622.5031,2095.78,622.9" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="1836" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[381bd490a00a4a0eff8fc0d4f2dca5ca]
+link n5769 to n109174--><path d="M1872.15,501.07 C1837.02,510.64 1797.11,519.96 1760,525 C1745.52,526.97 1244.25,522.59 1234,533 C1228.39,538.7 1228.4,545.28 1234,551 C1248.66,565.97 1593.17,548 1611,559 C1676.49,599.38 1626.71,671.29 1692,712 C1716.24,727.12 1921.92,710.89 1949,720 C2001.41,737.63 2051.8,777.08 2084.13,806.27 " fill="none" id="n5769-to-n109174" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2087.99,809.78,2084.0316,800.7616,2084.2942,806.4124,2078.6434,806.6749,2087.99,809.78" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="1693" y="660.9951">depends on (scope:provided, optional:false)</text><!--MD5=[aebb2e72d228a89af4e24e0a2b0fa705]
+link n22681 to n7578--><path d="M3989.21,314.07 C3958.28,323.71 3922.99,333.06 3890,338 C3877.09,339.93 2959.19,336.73 2950,346 C2940.51,355.57 2886.25,451.14 2966,525 C2980.55,538.48 3304.49,525.86 3323,533 C3408.91,566.15 3413.93,668.96 3353,738 C3311.03,785.55 2938.63,816.52 2708.1,831.31 " fill="none" id="n22681-to-n7578" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2703.02,831.64,2712.2538,835.0659,2708.0101,831.3254,2711.7505,827.0817,2703.02,831.64" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="3355" y="547.4951">depends on (scope:compile, optional:true)</text><!--MD5=[15a9c67b71c483231e27664edb7f33b4]
+link n22681 to n7579--><path d="M3989.7,314.04 C3958.65,323.74 3923.17,333.14 3890,338 C3799.11,351.32 674.16,334.67 583,346 C457.22,361.64 325,340.75 325,467.5 C325,467.5 325,467.5 325,843.5 C325,965.85 1171.52,1009.69 1551.8,1023.21 " fill="none" id="n22681-to-n7579" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1556.81,1023.39,1547.9647,1019.0587,1551.8134,1023.2044,1547.6677,1027.0532,1556.81,1023.39" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="326" y="660.9951">depends on (scope:compile, optional:true)</text><!--MD5=[4565bd6d33a9d479da0a5f692e5efa63]
+link n22681 to n22728--><path d="M3897.63,282.53 C3468.57,283.48 2414.62,291.39 2362,346 C2340.52,368.29 2350.01,404.18 2362.34,431.18 " fill="none" id="n22681-to-n22728" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2364.5,435.77,2364.2796,425.9236,2362.3676,431.2475,2357.0436,429.3355,2364.5,435.77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="2363" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[4436b18f3cd6436ba7170800f408355b]
+link n22728 to n109174--><path d="M2479.94,501.01 C2514.03,510.64 2552.86,520.01 2589,525 C2598.71,526.34 3288.11,526.03 3295,533 C3300.62,538.69 3300.54,545.23 3295,551 C3287.41,558.9 3108.64,556.41 3098,559 C2941.7,597.01 2926.53,674.94 2770,712 C2709.21,726.39 2551.06,712.89 2489,720 C2448.91,724.59 2439.86,731.67 2400,738 C2369.51,742.84 2360.75,737.76 2331,746 C2278.58,760.52 2222.63,786.37 2181.53,807.51 " fill="none" id="n22728-to-n109174" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2176.85,809.93,2186.6829,809.3696,2181.2961,807.6426,2183.0231,802.2558,2176.85,809.93" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="3099" y="660.9951">depends on (scope:provided, optional:false)</text><!--MD5=[a56ded25d99ed4aa3b18dda450552676]
+link n22728 to n109173--><path d="M2281.69,501.02 C2251.15,509.71 2217.41,518.52 2186,525 C2172.83,527.72 2134.86,522.88 2126,533 C2105.47,556.44 2117.13,591.85 2131.3,618.4 " fill="none" id="n22728-to-n109173" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2133.78,622.92,2132.9685,613.1046,2131.3797,618.5338,2125.9506,616.9451,2133.78,622.92" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="2127" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[b92af8c3c4cb681be6f51b1838366a92]
+link n22681 to n7582--><path d="M4080.2,314.18 C4083.08,330.29 4088.56,349.48 4099,364 C4102.74,369.2 4106.65,367.29 4111,372 C4163.74,429.18 4142.31,468.71 4196,525 C4324.8,660.03 4396.89,643.76 4553,746 C4583.08,765.7 4616.22,788.6 4642.49,807.03 " fill="none" id="n22681-to-n7582" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="4646.64,809.95,4641.5627,801.5107,4642.5445,807.0817,4636.9735,808.0635,4646.64,809.95" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="4222" y="547.4951">depends on (scope:compile, optional:true)</text><!--MD5=[c373ba27cd97f4c81ceec8cb162a134c]
+link n22681 to n22727--><path d="M4256.02,287.2 C4496.9,294.75 4902.22,312.31 4962,346 C4995.41,364.83 5018.99,402.67 5032.9,431.14 " fill="none" id="n22681-to-n22727" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="5035.22,435.98,5034.9234,426.1356,5033.0526,431.4742,5027.7141,429.6034,5035.22,435.98" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="4985" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[1fc5db6a925c5cf4c23c26cc83cfa136]
+link n22727 to n22728--><path d="M5005.86,435.96 C4973.44,413.09 4926.46,384.44 4880,372 C4766.12,341.51 4467.39,371.11 4349.5,371 C4153.89,370.82 2779.92,329.43 2589,372 C2536.03,383.81 2480.57,410.75 2440.56,433.17 " fill="none" id="n22727-to-n22728" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2435.76,435.88,2445.5642,434.9433,2440.1152,433.4239,2441.6345,427.9749,2435.76,435.88" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="4101.5" y="360.4951">depends on (scope:compile, optional:false)</text><!--MD5=[38ee5763c08382482c58c4b89f69b2df]
+link n22681 to n7581--><path d="M3989.22,314.13 C3958.29,323.78 3923,333.12 3890,338 C3808.08,350.12 977.47,325.43 909,372 C838.76,419.77 785.04,487.98 842,551 C853.83,564.09 906.71,548.65 921,559 C981.27,602.64 943.36,653.23 989,712 C1018.62,750.13 1061.76,783.62 1096.37,806.98 " fill="none" id="n22681-to-n7581" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1100.54,809.78,1095.2901,801.447,1096.3863,806.9966,1090.8367,808.0928,1100.54,809.78" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="843" y="547.4951">depends on (scope:compile, optional:true)</text><!--MD5=[bb449604eceb5f40bcada3377b582e36]
+link n22681 to n16681--><path d="M4256.33,306.35 C4299.61,315.91 4337.37,328.85 4351,346 C4355.98,352.26 4356.45,358.14 4351,364 C4334.15,382.1 4256.85,353.9 4240,372 C4193.68,421.78 4192,476.83 4240,525 C4250.85,535.89 6438.06,529.42 6453,533 C6523.19,549.83 6596.16,590.39 6643.16,620.03 " fill="none" id="n22681-to-n16681" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="6647.62,622.87,6642.1674,614.6682,6643.3993,620.1893,6637.8783,621.4213,6647.62,622.87" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="4241" y="473.9951">depends on (scope:compile, optional:true)</text><!--MD5=[9bdfbc69099fb66ef462a12102a2305b]
+link n16681 to n7580--><path d="M6789.97,688.09 C6891.66,721.57 7051.53,774.19 7155.07,808.27 " fill="none" id="n16681-to-n7580" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="7159.95,809.88,7152.6468,803.2722,7155.1995,808.3203,7150.1513,810.873,7159.95,809.88" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="6942" y="734.4951">depends on (scope:provided, optional:false)</text><!--MD5=[584387ed294778739b3094554a77dba5]
+link n16681 to n7582--><path d="M6595.45,688.04 C6563.4,697.17 6527.47,706.21 6494,712 C5870.69,819.76 5111.19,838.11 4816.36,841.04 " fill="none" id="n16681-to-n7582" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="4811.2,841.09,4820.234,845.0127,4816.1998,841.0471,4820.1654,837.013,4811.2,841.09" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="6447" y="734.4951">depends on (scope:provided, optional:false)</text><!--MD5=[40a89c8e2e392f85b68be9887016b79c]
+link n22681 to n7580--><path d="M4256.31,284.93 C4634.21,290.8 5481.96,308.12 5532,346 C5598.79,396.56 5531.27,466.27 5591,525 C5790.46,721.14 5918.48,653.31 6192,712 C6510.46,780.34 6890.85,815.77 7099.6,831.34 " fill="none" id="n22681-to-n7580" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="7104.81,831.73,7096.132,827.0724,7099.8238,831.3585,7095.5377,835.0503,7104.81,831.73" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="5619" y="547.4951">depends on (scope:compile, optional:true)</text><!--MD5=[3fe5f3fd58566d6cefcd9da99a29d5b7]
+link n22681 to n22722--><path d="M4256.03,287.89 C4614.93,298.72 5448.02,323.96 6148,346 C6395.56,353.8 6457.41,357.11 6705,364 C6743.11,365.06 7010.76,363.84 7048,372 C7104.53,384.38 7164.56,411.3 7207.76,433.42 " fill="none" id="n22681-to-n22722" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="7212.42,435.82,7206.2469,428.1458,7207.9739,433.5326,7202.5871,435.2596,7212.42,435.82" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="6706" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[66fbd0725fe0a9241f2670726c4c59e5]
+link n22722 to n35205--><path d="M7257.86,501.29 C7254.12,518.24 7253.59,538.18 7266,551 C7275.55,560.86 7499.45,556.79 7513,559 C7592.66,571.99 7680.31,599.21 7743.54,621.28 " fill="none" id="n22722-to-n35205" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="7748.43,623,7741.2412,616.2679,7743.7069,621.3591,7738.6157,623.8248,7748.43,623" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="7267" y="547.4951">depends on (scope:compile, optional:false)</text><!--MD5=[405cf9091f2a9eb7a9391135eb3b82d2]
+link n22722 to n16681--><path d="M7162.55,501.06 C7126.5,510.45 7085.8,519.65 7048,525 C7022.9,528.55 6843.34,523.1 6820,533 C6777.87,550.87 6741.7,589.76 6719.07,618.76 " fill="none" id="n22722-to-n16681" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="6715.82,622.96,6724.4877,618.2833,6718.8768,619.0033,6718.1569,613.3924,6715.82,622.96" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="6821" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[b6abd07bd8c5f9088031ff72bf4746dc]
+link n22722 to n7580--><path d="M7256.99,501.03 C7253.72,511.09 7250.63,522.38 7249,533 C7247.78,540.91 7248.9,543 7249,551 C7250.1,642.14 7253.13,749.33 7254.82,804.52 " fill="none" id="n22722-to-n7580" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="7254.98,809.69,7258.6953,800.5688,7254.8229,804.6925,7250.6993,800.8201,7254.98,809.69" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="7253" y="660.9951">depends on (scope:compile, optional:false)</text><!--MD5=[0d0d8ca1a3bb777804ee1410182e378b]
+link n22722 to n7582--><path d="M7207.31,501.06 C7169.98,518.72 7120.87,539.44 7075,551 C7057.03,555.53 7006.97,548.08 6992,559 C6922.04,610.04 6986.21,688.71 6915,738 C6828.32,798.01 5273.59,830.91 4816.43,839.32 " fill="none" id="n22722-to-n7582" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="4811.11,839.42,4820.1882,843.2392,4816.109,839.32,4820.0282,835.2408,4811.11,839.42" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="6993" y="660.9951">depends on (scope:compile, optional:false)</text><!--MD5=[a0901ef8a324c73b488edc44286d4350]
+link n22681 to n22723--><path d="M4256.18,281.5 C4725.59,281.5 5984.63,281.5 6416.9,281.5 " fill="none" id="n22681-to-n22723" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="6421.95,281.5,6412.95,277.5,6416.95,281.5,6412.95,285.5,6421.95,281.5" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="5218" y="274.9951">depends on (scope:compile, optional:true)</text><!--MD5=[37e8256d2509d09ab67fb9268b18332c]
+link n22723 to n7580--><path d="M6708.45,287.43 C6951.26,297.11 7422.54,322.13 7479,372 C7535.85,422.22 7550.56,648.55 7509,712 C7478.95,757.89 7427.29,788.34 7378.45,808.11 " fill="none" id="n22723-to-n7580" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="7373.74,809.99,7383.5815,810.3718,7378.3843,808.138,7380.6182,802.9409,7373.74,809.99" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="7532" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[5450741916d50a86676f2cde4b699d55]
+link n22723 to n22729--><path d="M6421.79,284.46 C6252.77,288.77 5983.25,302.49 5893,346 C5853.65,364.97 5820.44,403.08 5799.57,431.59 " fill="none" id="n22723-to-n22729" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="5796.58,435.72,5805.0991,430.7779,5799.5132,431.6708,5798.6204,426.0848,5796.58,435.72" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="5894" y="360.4951">depends on (scope:provided, optional:false)</text><!--MD5=[07538d1af895c410238257c551f51f4a]
+link n22723 to n34745--><path d="M6539.04,314.05 C6522.25,332.06 6498.76,353.15 6473,364 C6450.41,373.52 6383.79,359.02 6363,372 C6296.28,413.67 6340.8,483.45 6274,525 C6263.03,531.82 6170.88,532.03 6158,533 C6059.29,540.41 6034.9,546.81 5936,551 C5906.55,552.25 3842.32,550.83 3814,559 C3772.71,570.91 3731.71,597.5 3702.57,619.61 " fill="none" id="n22723-to-n34745" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3698.35,622.83,3707.9269,620.5314,3702.319,619.789,3703.0613,614.1811,3698.35,622.83" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="6364" y="473.9951">depends on (scope:provided, optional:true)</text><!--MD5=[0348701563e7853406171f86fb7c415a]
+link n22723 to n16682--><path d="M6421.72,282.63 C5997.52,283.63 4773.37,291.27 4708,346 C4683.79,366.27 4678.77,403.09 4678.9,430.9 " fill="none" id="n22723-to-n16682" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="4678.98,435.98,4682.851,426.9238,4678.9086,430.9805,4674.8518,427.0381,4678.98,435.98" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="4709" y="360.4951">depends on (scope:provided, optional:true)</text><!--MD5=[03620b30b24c5ff61701d2ac40f8dafe]
+link n22723 to n7579--><path d="M6609.94,314.05 C6627.1,329.21 6644.17,349.08 6651,372 C6670.41,437.17 6695.96,473.98 6651,525 C6620.64,559.45 6491.76,547.15 6446,551 C6435.36,551.89 6262.21,552.17 6254,559 C6191.24,611.18 6273.78,683.53 6213,738 C5982.07,944.92 5136.44,879.21 4827,899 C3875.54,959.86 3635.34,914.18 2682,925 C2640,925.48 1966.85,923.22 1926,933 C1875.69,945.05 1823.38,971.97 1785.93,994.17 " fill="none" id="n22723-to-n7579" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1781.44,996.86,1791.2154,995.6595,1785.7275,994.2875,1787.0995,988.7996,1781.44,996.86" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="6255" y="660.9951">depends on (scope:provided, optional:false)</text><!--MD5=[c618bd66d57125f066f56dbce08ff72b]
+link n22723 to n217798--><path d="M6421.8,286.65 C6061.03,296.95 5085.46,323.89 4272,338 C4229.67,338.73 3551.2,336.28 3510,346 C3492.2,350.2 3490.81,359.85 3473,364 C3380.31,385.58 1853.02,351.87 1760,372 C1704.78,383.95 1646.53,411.21 1604.93,433.56 " fill="none" id="n22723-to-n217798" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1600.45,435.98,1610.2684,435.2065,1604.8455,433.5967,1606.4552,428.1738,1600.45,435.98" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="3511" y="360.4951">depends on (scope:provided, optional:true)</text><!--MD5=[0638639c837e6ee88d3cc623635cdc50]
+link n217798 to n109173--><path d="M1546.88,501.16 C1548.65,518.74 1554.12,539.34 1569,551 C1584.88,563.44 1912.29,554.73 1932,559 C1988.99,571.35 2049.56,598.27 2093.18,620.4 " fill="none" id="n217798-to-n109173" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2097.87,622.79,2091.6674,615.1396,2093.4151,620.5197,2088.035,622.2674,2097.87,622.79" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="1570" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[1bbe2cf49900b8078983744fee9969af]
+link n217798 to n109174--><path d="M1441.65,501.04 C1407.58,510.13 1369.44,519.17 1334,525 C1321.69,527.03 1230.5,523.87 1222,533 C1216.55,538.85 1216.68,545.02 1222,551 C1232.11,562.37 1277.9,549.77 1290,559 C1359.88,612.29 1294.79,699.93 1374,738 C1403.05,751.96 1631.99,742.24 1664,746 C1776.74,759.25 1902.92,786.68 1993.92,808.75 " fill="none" id="n217798-to-n109174" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1999.04,810,1991.2454,803.9797,1994.1826,808.8142,1989.3481,811.7515,1999.04,810" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="1344" y="660.9951">depends on (scope:provided, optional:false)</text><!--MD5=[3eadb68927bea1f2ee3efe03cf44f795]
+link n22723 to n35206--><path d="M6708.15,284.79 C7094.19,291.37 8137.9,312.1 8290,346 C8370.92,364.03 8457.75,404.2 8514.24,433.43 " fill="none" id="n22723-to-n35206" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="8518.93,435.87,8512.7865,428.1721,8514.4927,433.5655,8509.0993,435.2717,8518.93,435.87" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="8348" y="360.4951">depends on (scope:provided, optional:true)</text><!--MD5=[d7e017ca2bf3084962d81b059fd329f1]
+link n35206 to n16684--><path d="M8523.45,501.36 C8506.34,515.86 8494.39,533.63 8506,551 C8532.76,591.04 8578.18,615.61 8623.02,630.68 " fill="none" id="n35206-to-n16684" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="8627.92,632.29,8620.6109,625.6887,8623.1681,630.7346,8618.1222,633.2918,8627.92,632.29" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="8507" y="547.4951">depends on (scope:compile, optional:false)</text><!--MD5=[b71bdc524334fcfaadef86aa46ee6386]
+link n35206 to n35205--><path d="M8426.91,480.26 C8260.47,493.03 8008.97,514.87 7968,533 C7924.64,552.19 7885.46,590.51 7860.42,619.01 " fill="none" id="n35206-to-n35205" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="7857.13,622.79,7866.0579,618.6316,7860.4144,619.02,7860.026,613.3765,7857.13,622.79" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="7969" y="547.4951">depends on (scope:compile, optional:false)</text><!--MD5=[5d4e13c15de059f6687e4884af093db1]
+link n35206 to n35207--><path d="M8677.46,501.1 C8704.35,510.45 8733.09,521.33 8759,533 C8773.88,539.7 8775.38,546.29 8791,551 C8837.51,565.02 8853,546.72 8900,559 C8951.63,572.49 9006.18,598.73 9045.86,620.3 " fill="none" id="n35206-to-n35207" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="9050.63,622.9,9044.6551,615.0706,9046.2438,620.4997,9040.8146,622.0885,9050.63,622.9" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="8792" y="547.4951">depends on (scope:compile, optional:false)</text><!--MD5=[b3f3b751d7e87702cb6ea74fa4a999f0]
+link n22723 to n22722--><path d="M6708.09,300.4 C6805.29,314.64 6936.03,337.91 7048,372 C7101.05,388.15 7158.46,413.21 7201.48,433.61 " fill="none" id="n22723-to-n22722" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="7206.12,435.82,7199.7241,428.3305,7201.6086,433.6642,7196.2749,435.5487,7206.12,435.82" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="7010" y="360.4951">depends on (scope:provided, optional:true)</text><!--MD5=[1239be5642a15113f9a37f4de2d15bd5]
+link n22723 to n35205--><path d="M6708.12,285.88 C6969.87,292.88 7506.15,311.27 7584,346 C7687.61,392.23 7665.29,472.76 7766,525 C7783.64,534.15 7795.95,518.94 7810,533 C7831.81,554.82 7836.05,590.5 7835.58,617.57 " fill="none" id="n22723-to-n35205" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="7835.43,622.86,7839.6854,613.9779,7835.5728,617.862,7831.6887,613.7494,7835.43,622.86" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="7767" y="473.9951">depends on (scope:provided, optional:true)</text><!--MD5=[7d804ef3b6917b1b39d5067a1337a284]
+link n22723 to n7577--><path d="M6526.05,314.07 C6500.86,332.45 6466.44,353.93 6432,364 C6409.76,370.5 6033.79,358.44 6015,372 C5956.54,414.21 6019.79,483.25 5961,525 C5947.99,534.24 3679.65,529.9 3664,533 C3643.28,537.11 3640.71,546.83 3620,551 C3573.27,560.42 2808.35,547.88 2762,559 C2711.91,571.02 2659.87,597.95 2622.63,620.15 " fill="none" id="n22723-to-n7577" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2618.16,622.84,2627.9325,621.6156,2622.4412,620.257,2623.7997,614.7657,2618.16,622.84" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="6016" y="473.9951">depends on (scope:provided, optional:false)</text><!--MD5=[3ddb959120cd4b4ed361705eafd86121]
+link n22723 to n5768--><path d="M6421.93,284.6 C6103.32,289.99 5360.33,306.71 5323,346 C5301.3,368.84 5314.5,404.49 5330.18,431.27 " fill="none" id="n22723-to-n5768" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="5332.92,435.83,5331.6956,426.0575,5330.337,431.5488,5324.8457,430.1903,5332.92,435.83" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="5324" y="360.4951">depends on (scope:provided, optional:true)</text><!--MD5=[576494a3441864c7d96e099c6e5ad9ba]
+link n22723 to n16681--><path d="M6697.08,314.15 C6710.75,322.42 6722.93,332.85 6732,346 C6789.48,429.35 6742.3,556.22 6712.99,618.06 " fill="none" id="n22723-to-n16681" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="6710.74,622.76,6718.2459,616.3834,6712.9074,618.2542,6711.0366,612.9156,6710.74,622.76" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="6760" y="473.9951">depends on (scope:provided, optional:true)</text><!--MD5=[0ba44b4e832bb80a9a7a722361fcd62d]
+link n22723 to n7582--><path d="M6586.34,314.2 C6618.24,365.83 6668.91,468.02 6613,525 C6604.79,533.37 6202.65,531.7 6191,533 C6053.74,548.28 5151.04,742.01 4815.94,814.43 " fill="none" id="n22723-to-n7582" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="4811.04,815.48,4820.6824,817.4862,4815.9269,814.4226,4818.9905,809.6671,4811.04,815.48" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="6192" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[4332f633d9522365e6ab75b84365d7a3]
+link n22681 to n22730--><path d="M3897.93,283.15 C3661.51,285.9 3269.75,297.79 3225,346 C3219.56,351.86 3219.56,358.13 3225,364 C3232.95,372.58 3318.6,369.35 3330,372 C3389.32,385.82 3453.2,412.14 3499.84,433.65 " fill="none" id="n22681-to-n22730" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3504.58,435.85,3498.089,428.4428,3500.0415,433.752,3494.7322,435.7044,3504.58,435.85" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="3226" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[47bedca125da7708f2c586db10596cb7]
+link n22681 to n16682--><path d="M4256.21,310.09 C4301.17,319.33 4348.87,331.17 4392,346 C4408.92,351.82 4411.02,358.38 4428,364 C4447.28,370.39 4453.61,365.95 4473,372 C4523.5,387.75 4577.77,412.81 4618.34,433.3 " fill="none" id="n22681-to-n16682" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="4623.22,435.78,4616.998,428.1454,4618.7594,433.5211,4613.3837,435.2825,4623.22,435.78" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="4429" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[1c9141ca6f3dedd7379a7933ee47d54d]
+link n22681 to n22729--><path d="M4256.04,285.16 C4625.88,291.37 5450,309.18 5573,346 C5604.42,355.4 5675.62,400.35 5724.75,432.84 " fill="none" id="n22681-to-n22729" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="5729.14,435.74,5723.8374,427.4404,5724.9688,432.983,5719.4262,434.1144,5729.14,435.74" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="5609" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[b2986e3f54d979599eda246f0e5f7d68]
+link n22681 to n22725--><path d="M4061.45,314.04 C4050.76,332.04 4034.75,353.12 4014,364 C3999.12,371.8 3874.56,359.81 3863,372 C3816.21,421.34 3820.15,472.2 3863,525 C3873.87,538.4 3887.19,522.64 3901,533 C3928.84,553.88 3946.02,590.25 3955.68,617.77 " fill="none" id="n22681-to-n22725" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3957.39,622.8,3958.2678,612.9903,3955.7746,618.0681,3950.6968,615.575,3957.39,622.8" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="3864" y="473.9951">depends on (scope:compile, optional:true)</text><!--MD5=[a33e064d5ef53e2e8fdb78c278cb1de6]
+link n22681 to n22726--><path d="M3897.73,286.41 C3591.97,293.95 2999.36,312.79 2968,346 C2934.39,381.59 2981.17,412.33 3035.44,433.99 " fill="none" id="n22681-to-n22726" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3040.37,435.92,3033.4545,428.9074,3035.7159,434.0926,3030.5307,436.354,3040.37,435.92" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="2969" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[0d1425cb26c33b9aec946e73a8d5114e]
+link n22726 to n34745--><path d="M3246.29,501 C3280.07,510.48 3318.36,519.75 3354,525 C3369.01,527.21 3615.05,523.65 3627,533 C3652.26,552.75 3659.75,589.64 3661.53,617.61 " fill="none" id="n22726-to-n34745" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3661.8,622.73,3665.3048,613.5259,3661.5282,617.7374,3657.3167,613.9608,3661.8,622.73" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="3643" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[aa23ad4e6cd604f8c01375718ace961e]
+link n23548 to n23194--><path d="M9634.89,127.03 C9669.47,136.27 9706.4,147.12 9740,159 C9811.5,184.28 9890.32,220.46 9944.63,246.76 " fill="none" id="n23548-to-n23194" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="9949.15,248.96,9942.802,241.4298,9944.6525,246.7755,9939.3068,248.6259,9949.15,248.96" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="9786" y="173.4951">depends on (scope:compile, optional:true)</text><!--MD5=[edc06d293ed9568bcff96b11807bf69e]
+link n23548 to n20655--><path d="M9542.69,127.07 C9563.79,143.62 9589.42,164.64 9611,185 C9678.04,248.26 9667.92,298.08 9751,338 C9775.29,349.67 9852.65,327.24 9872,346 C9945.42,417.19 9926.37,552.7 9911.67,617.8 " fill="none" id="n23548-to-n20655" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="9910.53,622.74,9916.4361,614.8585,9911.6449,617.8659,9908.6375,613.0747,9910.53,622.74" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="9887" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[f201ba379438768abd23e95cd63a6297]
+link n20655 to n7580--><path d="M9776.25,688.06 C9735.28,697.21 9689.43,706.27 9647,712 C8809.75,825.04 7794.98,840.22 7412.19,841.67 " fill="none" id="n20655-to-n7580" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="7407.15,841.69,7416.1614,845.6643,7412.15,841.6757,7416.1385,837.6643,7407.15,841.69" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="9584" y="734.4951">depends on (scope:compile, optional:false)</text><!--MD5=[8db1bb207cd95739f035f881586fa1b6]
+link n23548 to n23195--><path d="M9336.86,95.73 C8644.69,97.2 5895.69,107.83 3638,185 C3300.94,196.52 839.06,101.28 607,346 C585.36,368.82 598.24,404.47 613.62,431.26 " fill="none" id="n23548-to-n23195" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="616.31,435.82,615.1719,426.0371,613.7649,431.5162,608.2858,430.1093,616.31,435.82" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="3639" y="286.9951">depends on (scope:compile, optional:true)</text><!--MD5=[2151f369fbab3c264fbaf65dc2407508]
+link n23195 to n7581--><path d="M632.28,501.41 C623.54,552.42 614.86,652.61 666,712 C710.2,763.33 879.12,799.95 1005.7,820.87 " fill="none" id="n23195-to-n7581" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1010.94,821.73,1002.7124,816.3164,1006.0069,820.915,1001.4083,824.2094,1010.94,821.73" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="667" y="660.9951">depends on (scope:provided, optional:false)</text><!--MD5=[2a806bb3eb38dff81c5fbbbe4aeb792f]
+link n23195 to n7577--><path d="M766.27,501.04 C811.08,510.71 862,520.09 909,525 C949.67,529.25 2341.8,521.37 2381,533 C2388.68,535.28 2464.42,584.73 2517.65,619.83 " fill="none" id="n23195-to-n7577" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2522.09,622.75,2516.7874,614.4504,2517.9188,619.993,2512.3762,621.1244,2522.09,622.75" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="2411" y="547.4951">depends on (scope:provided, optional:false)</text><!--MD5=[4e0550db41bb2dbae7b9bde0c3a4cb7e]
+link n23548 to n23197--><path d="M9336.89,118 C9240.23,133.75 9129.23,156.96 9089,185 C8999.67,247.26 8944.72,369.57 8921.65,430.78 " fill="none" id="n23548-to-n23197" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="8919.78,435.79,8926.6666,428.7491,8921.5231,431.1037,8919.1685,425.9601,8919.78,435.79" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="9090" y="286.9951">depends on (scope:compile, optional:true)</text><!--MD5=[c76fb2a974cacdc09460e4dea8c3c11e]
+link n23197 to n16684--><path d="M9023.09,501.07 C9050.45,514.03 9066.94,530.8 9048,551 C9038.56,561.07 8937.23,555.04 8924,559 C8880.17,572.11 8835.36,598.36 8803.05,620.02 " fill="none" id="n23197-to-n16684" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="8798.78,622.91,8808.4765,621.1844,8802.9226,620.1102,8803.9968,614.5563,8798.78,622.91" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="9057" y="547.4951">depends on (scope:compile, optional:false)</text><!--MD5=[7500c11a1fb738738863fb9985b75f19]
+link n23197 to n23198--><path d="M9058.03,474.8 C9136.59,482.01 9232.98,498.03 9313,533 C9359.44,553.29 9403.93,591.05 9433.04,619.11 " fill="none" id="n23197-to-n23198" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="9436.87,622.83,9433.2048,613.6885,9433.2848,619.3448,9427.6285,619.4248,9436.87,622.83" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="9347" y="547.4951">depends on (scope:compile, optional:false)</text><!--MD5=[223005948e5d73a46ecb6d56317a10a4]
+link n23197 to n23196--><path d="M8830.9,501.09 C8803.56,510.67 8772.35,519.98 8743,525 C8715.67,529.67 8267.28,517.94 8244,533 C8215.08,551.7 8200.56,589.31 8193.44,617.76 " fill="none" id="n23197-to-n23196" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="8192.2,622.96,8198.1768,615.132,8193.3587,618.0961,8190.3946,613.278,8192.2,622.96" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="8245" y="547.4951">depends on (scope:compile, optional:false)</text><!--MD5=[ea4f46c1c1914b075d23d0e6b62d28f2]
+link n23548 to n23191--><path d="M9665.24,96.36 C9824.21,101.38 10070.22,120.34 10273,185 C10317.3,199.13 10363.25,224.9 10396.79,246.11 " fill="none" id="n23548-to-n23191" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="10401.23,248.94,10395.7774,240.7382,10397.0093,246.2593,10391.4883,247.4913,10401.23,248.94" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="10233" y="173.4951">depends on (scope:compile, optional:true)</text><!--MD5=[cdbd9981053e7f08a3097963d6a40276]
+link n23548 to n23198--><path d="M9521.75,127.06 C9569.27,203.63 9676.45,403.8 9603,551 C9588.54,579.99 9561.67,603.08 9535.61,620.02 " fill="none" id="n23548-to-n23198" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="9531.1,622.9,9540.8395,621.4364,9535.3165,620.2128,9536.5401,614.6899,9531.1,622.9" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="9621" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[9af12c7c483ea8157bc4bad334588cad]
+link n23548 to n23189--><path d="M9665.34,98.01 C9861.23,102.88 10198.03,117.14 10484,159 C10534.99,166.46 10548.93,166.41 10597,185 C10638.55,201.07 10682.3,225.85 10715.01,246.14 " fill="none" id="n23548-to-n23189" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="10719.35,248.85,10713.8454,240.683,10715.1124,246.1962,10709.5993,247.4632,10719.35,248.85" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="10574" y="173.4951">depends on (scope:compile, optional:true)</text><!--MD5=[bdc7cac5371214a04d3ed4c81c3a5cfc]
+link n23548 to n16684--><path d="M9480.49,127.08 C9451.2,173.4 9397.36,263.28 9365,346 C9330.76,433.54 9386.59,492.52 9313,551 C9296.08,564.45 8944.84,553.26 8924,559 C8879.58,571.23 8834.47,597.83 8802.19,619.85 " fill="none" id="n23548-to-n16684" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="8797.93,622.79,8807.6082,620.9646,8802.0435,619.9477,8803.0605,614.383,8797.93,622.79" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="9366" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[232683f65d101363f25c318ce880ec14]
+link n23548 to n23190--><path d="M9665.25,98.47 C9968.85,104.79 10606.75,122.07 10825,159 C10911.19,173.58 11003.3,215.94 11061.7,246.54 " fill="none" id="n23548-to-n23190" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="11066.19,248.9,11060.0959,241.1629,11061.7676,246.5671,11056.3634,248.2388,11066.19,248.9" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="10894" y="173.4951">depends on (scope:compile, optional:true)</text><!--MD5=[47f30f8a342a962f5dbd0b78731516d5]
+link n23548 to n23196--><path d="M9336.78,99.75 C8992.73,112.29 8213.58,160.92 8038,346 C7982.83,404.15 8073.54,469.2 8016,525 C8002.06,538.52 7942.08,518.66 7929,533 C7923.61,538.91 7923.63,545.07 7929,551 C7941.15,564.4 7992.7,553.71 8010,559 C8055.22,572.82 8102.13,598.74 8136.28,620.1 " fill="none" id="n23548-to-n23196" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="8140.81,622.94,8135.3376,614.7514,8136.5829,620.2695,8131.0648,621.5148,8140.81,622.94" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="8039" y="360.4951">depends on (scope:compile, optional:true)</text><!--MD5=[8a3f7390781ce790265ba140505ee90f]
+link n23548 to n23193--><path d="M9336.97,95.85 C8105.61,98.57 356.38,117.33 315,159 C293.44,180.71 297.27,216.79 304.63,244.01 " fill="none" id="n23548-to-n23193" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="306.05,248.99,307.4505,239.2412,304.6896,244.1786,299.7522,241.4178,306.05,248.99" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="316" y="173.4951">depends on (scope:compile, optional:true)</text><!--MD5=[8d768949bc1dc031875b49699597ec5d]
+link n23193 to n7579--><path d="M163.37,314.09 C84.92,340.1 6,386.42 6,467.5 C6,467.5 6,467.5 6,843.5 C6,997.67 1108.16,1023.58 1551.51,1027.77 " fill="none" id="n23193-to-n7579" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1556.7,1027.82,1547.7463,1023.7174,1551.7003,1027.7629,1547.6549,1031.7169,1556.7,1027.82" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="7" y="660.9951">depends on (scope:compile, optional:false)</text><!--MD5=[ba1274be9c04ab8521b8910794cc23ee]
+link n23193 to n4814--><path d="M434.88,314.07 C469.22,322.63 506.97,331.36 542,338 C655.2,359.44 686.31,347.99 799,372 C875.56,388.31 960.38,413.78 1023.74,434.31 " fill="none" id="n23193-to-n4814" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1028.64,435.91,1021.313,429.3286,1023.8839,434.3675,1018.845,436.9383,1028.64,435.91" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="758" y="360.4951">depends on (scope:compile, optional:false)</text><!--MD5=[7168b03b053c5b566fa478b24a348553]
+@startuml
+skinparam componentStyle uml2
+  folder "jakarta.jakartaee-api" {
+      [jakarta.platform:jakarta.jakartaee-api:jar:9.1.0] <<Artifact File Maven Platform Release>> as n23548
+  }
+  folder "jakarta.jakartaee-web-api" {
+      [jakarta.platform:jakarta.jakartaee-web-api:jar:9.1.0] <<Artifact File Maven Release>> as n22681
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0] <<Artifact File Maven Release>> as n7577
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.ejb-api" {
+      [jakarta.ejb:jakarta.ejb-api:jar:4.0.0-RC2] <<Artifact File Maven Release>> as n5768
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n4814
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0] <<Artifact File Maven Release>> as n7578
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:2.0.0] <<Artifact File Maven Release>> as n7579
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0] <<Artifact File Maven Release>> as n7581
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n5769
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0] <<Artifact File Maven Release>> as n7578
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:2.0.0] <<Artifact File Maven Release>> as n7579
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:2.0.0] <<Artifact File Maven Release>> as n7579
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0] <<Artifact File Maven Release>> as n22728
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.ejb-api" {
+      [jakarta.ejb:jakarta.ejb-api:jar:4.0.0] <<Artifact File Maven Release>> as n22727
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0] <<Artifact File Maven Release>> as n22728
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0] <<Artifact File Maven Release>> as n7581
+  }
+  folder "jakarta.servlet.jsp-api" {
+      [jakarta.servlet.jsp:jakarta.servlet.jsp-api:jar:3.0.0] <<Artifact File Maven Release>> as n16681
+  }
+  folder "jakarta.servlet-api" {
+      [jakarta.servlet:jakarta.servlet-api:jar:5.0.0] <<Artifact File Maven Release>> as n7580
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.servlet-api" {
+      [jakarta.servlet:jakarta.servlet-api:jar:5.0.0] <<Artifact File Maven Release>> as n7580
+  }
+  folder "jakarta.servlet.jsp.jstl-api" {
+      [jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:2.0.0] <<Artifact File Maven Release>> as n22722
+  }
+  folder "jakarta.xml.bind-api" {
+      [jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.0] <<Artifact File Maven Release>> as n35205
+  }
+  folder "jakarta.servlet.jsp-api" {
+      [jakarta.servlet.jsp:jakarta.servlet.jsp-api:jar:3.0.0] <<Artifact File Maven Release>> as n16681
+  }
+  folder "jakarta.servlet-api" {
+      [jakarta.servlet:jakarta.servlet-api:jar:5.0.0] <<Artifact File Maven Release>> as n7580
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.servlet-api" {
+      [jakarta.servlet:jakarta.servlet-api:jar:5.0.0] <<Artifact File Maven Release>> as n7580
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.faces-api" {
+      [jakarta.faces:jakarta.faces-api:jar:3.0.0] <<Artifact File Maven Release>> as n22723
+  }
+  folder "jakarta.servlet-api" {
+      [jakarta.servlet:jakarta.servlet-api:jar:5.0.0] <<Artifact File Maven Release>> as n7580
+  }
+  folder "jakarta.validation-api" {
+      [jakarta.validation:jakarta.validation-api:jar:3.0.0] <<Artifact File Maven Release>> as n22729
+  }
+  folder "jakarta.json-api" {
+      [jakarta.json:jakarta.json-api:jar:2.0.0] <<Artifact File Maven Release>> as n34745
+  }
+  folder "jakarta.persistence-api" {
+      [jakarta.persistence:jakarta.persistence-api:jar:3.0.0] <<Artifact File Maven Release>> as n16682
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:2.0.0] <<Artifact File Maven Release>> as n7579
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC3] <<Artifact File Maven Release>> as n217798
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.xml.ws-api" {
+      [jakarta.xml.ws:jakarta.xml.ws-api:jar:3.0.0] <<Artifact File Maven Release>> as n35206
+  }
+  folder "jakarta.jws-api" {
+      [jakarta.jws:jakarta.jws-api:jar:3.0.0] <<Artifact File Maven Release>> as n16684
+  }
+  folder "jakarta.xml.bind-api" {
+      [jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.0] <<Artifact File Maven Release>> as n35205
+  }
+  folder "jakarta.xml.soap-api" {
+      [jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.0] <<Artifact File Maven Release>> as n35207
+  }
+  folder "jakarta.servlet.jsp.jstl-api" {
+      [jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:2.0.0] <<Artifact File Maven Release>> as n22722
+  }
+  folder "jakarta.xml.bind-api" {
+      [jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.0] <<Artifact File Maven Release>> as n35205
+  }
+  folder "jakarta.servlet.jsp-api" {
+      [jakarta.servlet.jsp:jakarta.servlet.jsp-api:jar:3.0.0] <<Artifact File Maven Release>> as n16681
+  }
+  folder "jakarta.servlet-api" {
+      [jakarta.servlet:jakarta.servlet-api:jar:5.0.0] <<Artifact File Maven Release>> as n7580
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.servlet-api" {
+      [jakarta.servlet:jakarta.servlet-api:jar:5.0.0] <<Artifact File Maven Release>> as n7580
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.xml.bind-api" {
+      [jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.0] <<Artifact File Maven Release>> as n35205
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0] <<Artifact File Maven Release>> as n7577
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.ejb-api" {
+      [jakarta.ejb:jakarta.ejb-api:jar:4.0.0-RC2] <<Artifact File Maven Release>> as n5768
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n4814
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0] <<Artifact File Maven Release>> as n7578
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:2.0.0] <<Artifact File Maven Release>> as n7579
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0] <<Artifact File Maven Release>> as n7581
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n5769
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.ejb-api" {
+      [jakarta.ejb:jakarta.ejb-api:jar:4.0.0-RC2] <<Artifact File Maven Release>> as n5768
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n4814
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.servlet.jsp-api" {
+      [jakarta.servlet.jsp:jakarta.servlet.jsp-api:jar:3.0.0] <<Artifact File Maven Release>> as n16681
+  }
+  folder "jakarta.servlet-api" {
+      [jakarta.servlet:jakarta.servlet-api:jar:5.0.0] <<Artifact File Maven Release>> as n7580
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.authentication-api" {
+      [jakarta.authentication:jakarta.authentication-api:jar:2.0.0] <<Artifact File Maven Release>> as n22730
+  }
+  folder "jakarta.persistence-api" {
+      [jakarta.persistence:jakarta.persistence-api:jar:3.0.0] <<Artifact File Maven Release>> as n16682
+  }
+  folder "jakarta.validation-api" {
+      [jakarta.validation:jakarta.validation-api:jar:3.0.0] <<Artifact File Maven Release>> as n22729
+  }
+  folder "jakarta.json-api" {
+      [jakarta.json:jakarta.json-api:jar:2.0.1] <<Artifact File Maven Release>> as n22725
+  }
+  folder "jakarta.json.bind-api" {
+      [jakarta.json.bind:jakarta.json.bind-api:jar:2.0.0] <<Artifact File Maven Release>> as n22726
+  }
+  folder "jakarta.json-api" {
+      [jakarta.json:jakarta.json-api:jar:2.0.0] <<Artifact File Maven Release>> as n34745
+  }
+  folder "jakarta.enterprise.concurrent-api" {
+      [jakarta.enterprise.concurrent:jakarta.enterprise.concurrent-api:jar:2.0.0] <<Artifact File Maven Release>> as n23194
+  }
+  folder "jakarta.authorization-api" {
+      [jakarta.authorization:jakarta.authorization-api:jar:2.0.0] <<Artifact File Maven Release>> as n20655
+  }
+  folder "jakarta.servlet-api" {
+      [jakarta.servlet:jakarta.servlet-api:jar:5.0.0] <<Artifact File Maven Release>> as n7580
+  }
+  folder "jakarta.batch-api" {
+      [jakarta.batch:jakarta.batch-api:jar:2.0.0] <<Artifact File Maven Release>> as n23195
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0] <<Artifact File Maven Release>> as n7581
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0] <<Artifact File Maven Release>> as n7577
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7582
+  }
+  folder "jakarta.ejb-api" {
+      [jakarta.ejb:jakarta.ejb-api:jar:4.0.0-RC2] <<Artifact File Maven Release>> as n5768
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n4814
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0] <<Artifact File Maven Release>> as n7578
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:2.0.0] <<Artifact File Maven Release>> as n7579
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0] <<Artifact File Maven Release>> as n7581
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n5769
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.xml.ws-api" {
+      [jakarta.xml.ws:jakarta.xml.ws-api:jar:3.0.1] <<Artifact File Maven Release>> as n23197
+  }
+  folder "jakarta.jws-api" {
+      [jakarta.jws:jakarta.jws-api:jar:3.0.0] <<Artifact File Maven Release>> as n16684
+  }
+  folder "jakarta.xml.soap-api" {
+      [jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.1] <<Artifact File Maven Release>> as n23198
+  }
+  folder "jakarta.xml.bind-api" {
+      [jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1] <<Artifact File Maven Release>> as n23196
+  }
+  folder "jakarta.mail-api" {
+      [jakarta.mail:jakarta.mail-api:jar:2.0.1] <<Artifact File Maven Release>> as n23191
+  }
+  folder "jakarta.xml.soap-api" {
+      [jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.1] <<Artifact File Maven Release>> as n23198
+  }
+  folder "jakarta.jms-api" {
+      [jakarta.jms:jakarta.jms-api:jar:3.0.0] <<Artifact File Maven Release>> as n23189
+  }
+  folder "jakarta.jws-api" {
+      [jakarta.jws:jakarta.jws-api:jar:3.0.0] <<Artifact File Maven Release>> as n16684
+  }
+  folder "jakarta.activation-api" {
+      [jakarta.activation:jakarta.activation-api:jar:2.0.1] <<Artifact File Maven Release>> as n23190
+  }
+  folder "jakarta.xml.bind-api" {
+      [jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1] <<Artifact File Maven Release>> as n23196
+  }
+  folder "jakarta.resource-api" {
+      [jakarta.resource:jakarta.resource-api:jar:2.0.0] <<Artifact File Maven Release>> as n23193
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:2.0.0] <<Artifact File Maven Release>> as n7579
+  }
+  folder "jakarta.transaction-api" {
+      [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n4814
+  }
+  folder "jakarta.enterprise.cdi-api" {
+      [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n109173
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+  folder "jakarta.el-api" {
+      [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n528
+  }
+  folder "jakarta.inject-api" {
+      [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n115356
+  }
+  folder "jakarta.interceptor-api" {
+      [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n109174
+  }
+  folder "jakarta.annotation-api" {
+      [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n35849
+  }
+
+n23548 - -> n22681 : depends on (scope:compile, optional:true)
+n22681 - -> n7577 : depends on (scope:compile, optional:true)
+n7577 - -> n7582 : depends on (scope:compile, optional:false)
+n7577 - -> n5768 : depends on (scope:provided, optional:false)
+n5768 - -> n4814 : depends on (scope:compile, optional:false)
+n4814 - -> n109173 : depends on (scope:provided, optional:false)
+n109173 - -> n109174 : depends on (scope:compile, optional:false)
+n109174 - -> n35849 : depends on (scope:compile, optional:false)
+n109173 - -> n528 : depends on (scope:compile, optional:false)
+n109173 - -> n115356 : depends on (scope:compile, optional:false)
+n4814 - -> n109174 : depends on (scope:provided, optional:false)
+n7577 - -> n7578 : depends on (scope:compile, optional:false)
+n7578 - -> n7579 : depends on (scope:compile, optional:false)
+n7577 - -> n7581 : depends on (scope:compile, optional:false)
+n7577 - -> n5769 : depends on (scope:provided, optional:false)
+n5769 - -> n109173 : depends on (scope:provided, optional:false)
+n5769 - -> n109174 : depends on (scope:provided, optional:false)
+n22681 - -> n7578 : depends on (scope:compile, optional:true)
+n22681 - -> n7579 : depends on (scope:compile, optional:true)
+n22681 - -> n22728 : depends on (scope:compile, optional:true)
+n22728 - -> n109174 : depends on (scope:provided, optional:false)
+n22728 - -> n109173 : depends on (scope:provided, optional:false)
+n22681 - -> n7582 : depends on (scope:compile, optional:true)
+n22681 - -> n22727 : depends on (scope:compile, optional:true)
+n22727 - -> n22728 : depends on (scope:compile, optional:false)
+n22681 - -> n7581 : depends on (scope:compile, optional:true)
+n22681 - -> n16681 : depends on (scope:compile, optional:true)
+n16681 - -> n7580 : depends on (scope:provided, optional:false)
+n16681 - -> n7582 : depends on (scope:provided, optional:false)
+n22681 - -> n7580 : depends on (scope:compile, optional:true)
+n22681 - -> n22722 : depends on (scope:compile, optional:true)
+n22722 - -> n35205 : depends on (scope:compile, optional:false)
+n22722 - -> n16681 : depends on (scope:provided, optional:false)
+n22722 - -> n7580 : depends on (scope:compile, optional:false)
+n22722 - -> n7582 : depends on (scope:compile, optional:false)
+n22681 - -> n22723 : depends on (scope:compile, optional:true)
+n22723 - -> n7580 : depends on (scope:provided, optional:false)
+n22723 - -> n22729 : depends on (scope:provided, optional:false)
+n22723 - -> n34745 : depends on (scope:provided, optional:true)
+n22723 - -> n16682 : depends on (scope:provided, optional:true)
+n22723 - -> n7579 : depends on (scope:provided, optional:false)
+n22723 - -> n217798 : depends on (scope:provided, optional:true)
+n217798 - -> n109173 : depends on (scope:provided, optional:false)
+n217798 - -> n109174 : depends on (scope:provided, optional:false)
+n22723 - -> n35206 : depends on (scope:provided, optional:true)
+n35206 - -> n16684 : depends on (scope:compile, optional:false)
+n35206 - -> n35205 : depends on (scope:compile, optional:false)
+n35206 - -> n35207 : depends on (scope:compile, optional:false)
+n22723 - -> n22722 : depends on (scope:provided, optional:true)
+n22723 - -> n35205 : depends on (scope:provided, optional:true)
+n22723 - -> n7577 : depends on (scope:provided, optional:false)
+n22723 - -> n5768 : depends on (scope:provided, optional:true)
+n22723 - -> n16681 : depends on (scope:provided, optional:true)
+n22723 - -> n7582 : depends on (scope:provided, optional:false)
+n22681 - -> n22730 : depends on (scope:compile, optional:true)
+n22681 - -> n16682 : depends on (scope:compile, optional:true)
+n22681 - -> n22729 : depends on (scope:compile, optional:true)
+n22681 - -> n22725 : depends on (scope:compile, optional:true)
+n22681 - -> n22726 : depends on (scope:compile, optional:true)
+n22726 - -> n34745 : depends on (scope:provided, optional:false)
+n23548 - -> n23194 : depends on (scope:compile, optional:true)
+n23548 - -> n20655 : depends on (scope:compile, optional:true)
+n20655 - -> n7580 : depends on (scope:compile, optional:false)
+n23548 - -> n23195 : depends on (scope:compile, optional:true)
+n23195 - -> n7581 : depends on (scope:provided, optional:false)
+n23195 - -> n7577 : depends on (scope:provided, optional:false)
+n23548 - -> n23197 : depends on (scope:compile, optional:true)
+n23197 - -> n16684 : depends on (scope:compile, optional:false)
+n23197 - -> n23198 : depends on (scope:compile, optional:false)
+n23197 - -> n23196 : depends on (scope:compile, optional:false)
+n23548 - -> n23191 : depends on (scope:compile, optional:true)
+n23548 - -> n23198 : depends on (scope:compile, optional:true)
+n23548 - -> n23189 : depends on (scope:compile, optional:true)
+n23548 - -> n16684 : depends on (scope:compile, optional:true)
+n23548 - -> n23190 : depends on (scope:compile, optional:true)
+n23548 - -> n23196 : depends on (scope:compile, optional:true)
+n23548 - -> n23193 : depends on (scope:compile, optional:true)
+n23193 - -> n7579 : depends on (scope:compile, optional:false)
+n23193 - -> n4814 : depends on (scope:compile, optional:false)
+
+@enduml
+
+PlantUML version 1.2021.8(Sat Jun 26 10:20:59 CEST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

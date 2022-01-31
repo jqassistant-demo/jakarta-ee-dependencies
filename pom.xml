@@ -10,6 +10,7 @@
     <properties>
         <repo.url>https://repo1.maven.org/maven2</repo.url>
         <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.artifact>jakarta.platform:jakarta.jakartaee-api:jar:9.1.0</platform.artifact>
         <jqassistant.version>1.11.1</jqassistant.version>
     </properties>
 
@@ -34,6 +35,9 @@
                                 <m2repo.filter.includes>${repo.filter}</m2repo.filter.includes>
                                 <m2repo.directory>${project.basedir}/data/m2repo</m2repo.directory>
                             </scanProperties>
+                            <ruleParameters>
+                                <platformArtifact>${platform.artifact}</platformArtifact>
+                            </ruleParameters>
                             <scanIncludes>
                                 <scanInclude>
                                     <url>${repo.url}</url>

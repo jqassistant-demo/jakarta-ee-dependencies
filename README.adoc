@@ -6,6 +6,8 @@ This project provides a setup to scan Maven Central repository for Jakarta EE ar
 
 image:example/jakarta-ee-dependencies_PlatformDependencyDiagram.svg[]
 
+TIP: See link:example[here] for further example reports.
+
 == Requirements
 
 * Java Development Kit 8 or later
@@ -27,9 +29,10 @@ mvn verify
 +
 NOTE: The first scan fetches the full index from Maven Central, this will take time.
 * After analysis the following reports are created in the folder `target/jqassistant/report`:
-** `plantuml/jakarta-ee-dependencies_PlatformDependencyDiagram.plantuml`: The dependencies as PlantUML component diagram
-** `plantuml/jakarta-ee-dependencies_PlatformDependencyDiagram.svg`: The rendered PlantUML diagram converted to SVG
-** `graphml/jakarta-ee-dependencies_PlatformDependencyDiagram.graphml`: The dependencies as GraphML file.
+** `plantuml/jakarta-ee-dependencies_PlatformDependencyDiagram.plantuml|svg`: The artifacts and their dependencies as PlantUML component diagram.
+** `graphml/jakarta-ee-dependencies_PlatformDependencyDiagram.graphml`:  The artifacts and their dependencies as GraphML file.
+** `plantuml/jakarta-ee-dependencies_SpecificationDependencyDiagram.plantuml|svg`: The dependencies grouped by specification as PlantUML component diagram.
+** `graphml/jakarta-ee-dependencies_SpecificationDependencyDiagram.graphml`: The dependencies grouped by specification as GraphML file.
 +
 TIP: GraphML reports may be viewed using https://www.yworks.com/en/products/yfiles/yed/[yEd]. After opening a file you should apply a layout, e.g. `Layout->Hierarchical` (Alt-Shift-H) and property mapping (`Edit->Properties Mapper`) for nodes should be set to use `fqn` or `name` as `Label Text`.
   +
