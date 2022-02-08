@@ -47,17 +47,32 @@
         </verify>
     </concept>
 
-    <concept id="jakarta-ee-dependencies:PlatformDependencyDiagram">
+    <concept id="jakarta-ee-dependencies:PlatformArtifact">
         <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
         <requiresConcept refId="jakarta-ee-dependencies:ArtifactLastModifiedAsString" />
+        <requiresParameter name="platformArtifact" type="String" />
         <description>Creates reports about dependencies as GraphML file and PlantUML component diagram.</description>
         <cypher><![CDATA[
             MATCH
               (platform:Artifact)
             WHERE
-              platform.fqn="jakarta.platform:jakarta.jakartaee-api:jar:9.1.0"
+              platform.fqn = $platformArtifact
+            SET
+              platform:Platform
+            RETURN
+              platform as `Platform Artifact`
+            ]]></cypher>
+    </concept>
+
+
+    <concept id="jakarta-ee-dependencies:PlatformDependencyDiagram">
+        <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
+        <requiresConcept refId="jakarta-ee-dependencies:ArtifactLastModifiedAsString" />
+        <requiresConcept refId="jakarta-ee-dependencies:PlatformArtifact" />
+        <description>Creates reports about dependencies as GraphML file and PlantUML component diagram.</description>
+        <cypher><![CDATA[
             MATCH
-              (platform)-[d:DEPENDS_ON*]->(dependency:Artifact)
+              (platform:Platform:Artifact)-[d:DEPENDS_ON*]->(dependency:Artifact)
             RETURN
               *
         ]]></cypher>
@@ -66,20 +81,55 @@
 
     <concept id="jakarta-ee-dependencies:PlatformDependencyVersionsByArtifact">
         <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
+        <requiresConcept refId="jakarta-ee-dependencies:PlatformArtifact" />
         <description>Creates a CSV report about dependency versions.</description>
         <cypher><![CDATA[
             MATCH
-              (platform:Artifact)
-            WHERE
-              platform.fqn="jakarta.platform:jakarta.jakartaee-api:jar:9.1.0"
-            MATCH
-              (platform)-[d:DEPENDS_ON*]->(dependency:Artifact)
+              (platform:Platform:Artifact)-[d:DEPENDS_ON*]->(dependency:Artifact)
             RETURN
                dependency.group as GroupId, dependency.name as ArtifactId, collect(distinct dependency.version) as Version
             ORDER BY
               GroupId, ArtifactId
             ]]></cypher>
         <report type="csv" />
+    </concept>
+
+    <concept id="jakarta-ee-dependencies:Specification">
+        <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
+        <description>Creates a `Specification` per unique groupId/artifactId and associates the the artifacts, i.e. `(:Specification)-[:CONTAINS_ARTIFACT]->(:Artifact)`.</description>
+        <cypher><![CDATA[
+            MATCH
+              (:Repository)-[:CONTAINS_ARTIFACT]->(artifact)
+            MERGE
+              (specification:Specification {name: artifact.name})
+            MERGE
+              (specification)-[:CONTAINS_ARTIFACT]->(artifact)
+            RETURN
+              count(*)
+            ]]></cypher>
+        <verify>
+            <aggregation />
+        </verify>
+    </concept>
+
+    <concept id="jakarta-ee-dependencies:SpecificationDependencyDiagram">
+        <requiresConcept refId="jakarta-ee-dependencies:Specification" />
+        <requiresConcept refId="jakarta-ee-dependencies:ArtifactLastModifiedAsString" />
+        <requiresConcept refId="jakarta-ee-dependencies:PlatformArtifact" />
+        <description>Creates reports about dependencies between specifications as GraphML file and PlantUML component diagram.</description>
+        <cypher><![CDATA[
+            MATCH
+              (platform:Platform:Artifact)-[dependsOn:DEPENDS_ON*0..]->(dependency:Artifact),
+              (specification:Specification)-[:CONTAINS_ARTIFACT]->(dependency)
+            RETURN
+              {
+                role : "graph",
+                parent: specification,
+                nodes: collect(dependency),
+                relationships: dependsOn
+              }
+            ]]></cypher>
+        <report type="graphml,plantuml-component-diagram" />
     </concept>
 
 </jqassistant-rules>
