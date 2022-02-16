@@ -37,7 +37,7 @@
                             <executeAppliedConcepts>true</executeAppliedConcepts>
                             <scanProperties>
                                 <m2repo.filter.includes>${repo.filter}</m2repo.filter.includes>
-                                <m2repo.directory>${project.basedir}/data/m2repo</m2repo.directory>
+                                <m2repo.directory>${project.basedir}/cache/jqassistant/m2repo</m2repo.directory>
                             </scanProperties>
                             <ruleParameters>
                                 <platformArtifact>${platform.artifact}</platformArtifact>
@@ -51,7 +51,7 @@
                             <groups>
                                 <group>jakarta-ee-dependencies</group>
                             </groups>
-                            <storeDirectory>${project.basedir}/data/jqassistant/store</storeDirectory>
+                            <storeDirectory>${project.basedir}/target/jqassistant/store</storeDirectory>
                             <!--
                             <store>
                                 <uri>bolt://localhost:7687</uri>
