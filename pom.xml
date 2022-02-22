@@ -13,8 +13,12 @@
 <!--         <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url> -->
         <repo.filter>jakarta.*:*:*</repo.filter>
 		<!-- choose maven artifact as root -->
- 	    <platform.artifact>jakarta.platform:jakarta.jakartaee-api:jar:9.1.0</platform.artifact>
-<!--         <platform.artifact>jakarta.platform:jakarta.jakartaee-api:jar:10.0.0-RC1</platform.artifact> -->
+        <platform.groupId>jakarta.platform</platform.groupId>
+        <platform.artifactId>jakarta.jakartaee-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+<!--        <platform.version>10.0.0-RC1</platform.version> -->
+        <platform.version>9.1.0</platform.version>
+ 	    <platform.artifact>${platform.groupId}:${platform.artifactId}:${platform.type}:${platform.version}</platform.artifact>
         <jqassistant.version>1.11.1</jqassistant.version>
     </properties>
 

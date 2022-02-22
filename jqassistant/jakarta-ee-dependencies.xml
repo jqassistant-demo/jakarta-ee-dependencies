@@ -96,10 +96,10 @@
 
     <concept id="jakarta-ee-dependencies:Specification">
         <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
-        <description>Creates a `Specification` per unique groupId/artifactId and associates the the artifacts, i.e. `(:Specification)-[:CONTAINS_ARTIFACT]->(:Artifact)`.</description>
+        <description>Creates a `Specification` per unique groupId/artifactId and associates the artifacts, i.e. `(:Specification)-[:CONTAINS_ARTIFACT]->(:Artifact)`.</description>
         <cypher><![CDATA[
             MATCH
-              (:Repository)-[:CONTAINS_ARTIFACT]->(artifact)
+              shortestPath((:Repository)-[:CONTAINS_ARTIFACT|DEPENDS_ON*0..]->(artifact:Artifact))
             MERGE
               (specification:Specification {name: artifact.name})
             MERGE
