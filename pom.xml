@@ -15,7 +15,7 @@
 		<!-- choose maven artifact as root -->
  	    <platform.artifact>jakarta.platform:jakarta.jakartaee-api:jar:9.1.0</platform.artifact>
 <!--         <platform.artifact>jakarta.platform:jakarta.jakartaee-api:jar:10.0.0-RC1</platform.artifact> -->
-        <jqassistant.version>1.12.0-SNAPSHOT</jqassistant.version>
+        <jqassistant.version>1.12.0-M1</jqassistant.version>
     </properties>
 
     <build>
