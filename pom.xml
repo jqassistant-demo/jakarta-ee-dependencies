@@ -10,16 +10,19 @@
     <properties>
 		<!-- choose maven repo as source -->    
         <repo.url>https://repo1.maven.org/maven2</repo.url>
-<!--         <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url> -->
+<!--        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url> -->
         <repo.filter>jakarta.*:*:*</repo.filter>
 		<!-- choose maven artifact as root -->
         <platform.groupId>jakarta.platform</platform.groupId>
         <platform.artifactId>jakarta.jakartaee-api</platform.artifactId>
+<!--        <platform.artifactId>jakarta.jakartaee-web-api</platform.artifactId> -->
+<!--        <platform.artifactId>jakarta.jakartaee-core-api</platform.artifactId> -->
         <platform.type>jar</platform.type>
-<!--        <platform.version>10.0.0-RC1</platform.version> -->
         <platform.version>9.1.0</platform.version>
+<!--        <platform.version>10.0.0-RC1</platform.version> -->
+<!--        <platform.version>10.0.0</platform.version> -->
  	    <platform.artifact>${platform.groupId}:${platform.artifactId}:${platform.type}:${platform.version}</platform.artifact>
-        <jqassistant.version>1.11.1</jqassistant.version>
+        <jqassistant.version>1.12.0-M1</jqassistant.version>
     </properties>
 
     <build>
