@@ -12,7 +12,6 @@
 <!--        <repo.url>https://repo1.maven.org/maven2</repo.url> -->
 <!--        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url> -->
         <repo.url>https://repo1.maven.org/maven2</repo.url>
-<!--        <repo.filter>jakarta.*:*:*</repo.filter> -->
         <repo.filter>jakarta.*:*:*</repo.filter>
 		<!-- choose maven artifact as root -->
 <!--		<platform.groupId>jakarta.platform</platform.groupId> -->
