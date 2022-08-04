@@ -8,14 +8,115 @@
     <packaging>pom</packaging>
 
     <properties>
-		<!-- choose maven repo as source -->    
+    	<!-- general configuration options
+		choose maven repo as source
         <repo.url>https://repo1.maven.org/maven2</repo.url>
-<!--         <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url> -->
+        choose maven repo filtering
         <repo.filter>jakarta.*:*:*</repo.filter>
-		<!-- choose maven artifact as root -->
- 	    <platform.artifact>jakarta.platform:jakarta.jakartaee-api:jar:9.1.0</platform.artifact>
-<!--         <platform.artifact>jakarta.platform:jakarta.jakartaee-api:jar:10.0.0-RC1</platform.artifact> -->
-        <jqassistant.version>1.12.0-M1</jqassistant.version>
+        choose maven artifact as root
+        <platform.groupId>jakarta.platform</platform.groupId>
+        <platform.artifactId>jakarta.jakartaee-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>9.1.0</platform.version>
+         -->
+        <!-- Jakarta EE 9.1.0 Platform/Full Profile on Central configuration -->
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.platform</platform.groupId>
+        <platform.artifactId>jakarta.jakartaee-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>9.1.0</platform.version>
+
+        <!-- Jakarta EE 9.1.0 Web Profile on Central configuration
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.platform</platform.groupId>
+        <platform.artifactId>jakarta.jakartaee-web-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>9.1.0</platform.version>
+         -->
+        <!-- Jakarta EE 10.0.0 Platform/Full Profile on Staging configuration
+        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.platform</platform.groupId>
+        <platform.artifactId>jakarta.jakartaee-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>10.0.0</platform.version>
+         -->
+        <!-- Jakarta EE 10.0.0 Web Profile on Staging configuration
+        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.platform</platform.groupId>
+        <platform.artifactId>jakarta.jakartaee-web-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>10.0.0</platform.version>
+         -->
+        <!-- Jakarta EE 10.0.0 Core Profile on Staging configuration
+        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.platform</platform.groupId>
+        <platform.artifactId>jakarta.jakartaee-core-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>10.0.0</platform.version>
+         -->
+		<!-- MicroProfile 5.0 Platform on Central configuration
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
+        <repo.filter>org.eclipse.microprofile*:*:*</repo.filter>
+        <platform.groupId>org.eclipse.microprofile</platform.groupId>
+        <platform.artifactId>microprofile</platform.artifactId>
+        <platform.type>pom</platform.type>
+        <platform.version>5.0</platform.version>
+         -->
+        <!-- Jakarta Faces 4.0.1 on Staging configuration
+        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.faces</platform.groupId>
+        <platform.artifactId>jakarta.faces-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>4.0.1</platform.version>
+         -->
+        <!-- Jakarta Faces 4.0.1 on Central configuration
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.faces</platform.groupId>
+        <platform.artifactId>jakarta.faces-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>4.0.1</platform.version>
+         -->
+        <!-- Jakarta CDI 4.0.1 on Staging configuration
+        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.enterprise</platform.groupId>
+        <platform.artifactId>jakarta.enterprise.cdi-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>4.0.1</platform.version>
+         -->
+        <!-- Jakarta CDI 4.0.1 on Central configuration
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.enterprise</platform.groupId>
+        <platform.artifactId>jakarta.enterprise.cdi-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>4.0.1</platform.version>
+         -->
+		<!-- Jakarta Concurrent 3.0.1 on Staging configuration
+        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.enterprise.concurrent</platform.groupId>
+        <platform.artifactId>jakarta.enterprise.concurrent-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>3.0.1</platform.version>
+         -->
+		<!-- Jakarta Concurrent 3.0.1 on Central configuration
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.enterprise.concurrent</platform.groupId>
+        <platform.artifactId>jakarta.enterprise.concurrent-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>3.0.1</platform.version>
+         -->
+ 	    <platform.artifact>${platform.groupId}:${platform.artifactId}:${platform.type}:${platform.version}</platform.artifact>
+        <jqassistant.version>1.12.0</jqassistant.version>
     </properties>
 
     <build>
