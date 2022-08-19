@@ -4,30 +4,6 @@
         <includeConcept refId="jakarta-ee-dependencies:*"/>
     </group>
 
-    <concept id="jakarta-ee-dependencies:ArtifactDependencies">
-        <description>Propagates dependencies declared by Pom descriptor to artifacts.</description>
-        <cypher><![CDATA[
-            call apoc.periodic.iterate(
-                "MATCH
-                   (pom:Effective:Pom),
-                   (pom)-[:DESCRIBES]->(artifact:Artifact),
-                   (pom)-[:DECLARES_DEPENDENCY]->(dependency:Dependency)-[:TO_ARTIFACT]->(dependencyArtifact:Artifact)
-                 RETURN
-                   artifact, dependency, dependencyArtifact",
-                "MERGE
-                   (artifact)-[dependsOn:DEPENDS_ON]->(dependencyArtifact)
-                 SET
-                   dependsOn.scope = dependency.scope,
-                   dependsOn.optional = dependency.optional",
-                {})
-                YIELD
-                  total as `Artifact Dependencies`
-            ]]></cypher>
-        <verify>
-          <aggregation />
-        </verify>
-    </concept>
-
     <concept id="jakarta-ee-dependencies:ArtifactLastModifiedAsString">
         <description>Converts the lastModified timestamp attribute of Artifacts to a String representation (for GraphML reports).</description>
         <cypher><![CDATA[
@@ -48,7 +24,6 @@
     </concept>
 
     <concept id="jakarta-ee-dependencies:PlatformArtifact">
-        <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
         <requiresConcept refId="jakarta-ee-dependencies:ArtifactLastModifiedAsString" />
         <requiresParameter name="platformArtifact" type="String" />
         <description>Creates reports about dependencies as GraphML file and PlantUML component diagram.</description>
@@ -66,7 +41,6 @@
 
 
     <concept id="jakarta-ee-dependencies:PlatformDependencyDiagram">
-        <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
         <requiresConcept refId="jakarta-ee-dependencies:ArtifactLastModifiedAsString" />
         <requiresConcept refId="jakarta-ee-dependencies:PlatformArtifact" />
         <description>Creates reports about dependencies as GraphML file and PlantUML component diagram.</description>
@@ -80,22 +54,22 @@
     </concept>
 
     <concept id="jakarta-ee-dependencies:PlatformDependencyVersionsByArtifact">
-        <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
         <requiresConcept refId="jakarta-ee-dependencies:PlatformArtifact" />
         <description>Creates a CSV report about dependency versions.</description>
         <cypher><![CDATA[
             MATCH
               (platform:Platform:Artifact)-[d:DEPENDS_ON*]->(dependency:Artifact)
-            RETURN
-               dependency.group as GroupId, dependency.name as ArtifactId, collect(distinct dependency.version) as Version
+            WITH
+              dependency.group as GroupId, dependency.name as ArtifactId, dependency.version as Version
             ORDER BY
-              GroupId, ArtifactId
+              GroupId, ArtifactId, Version
+            RETURN
+              GroupId, ArtifactId, collect(distinct Version) as Versions
             ]]></cypher>
         <report type="csv" />
     </concept>
 
     <concept id="jakarta-ee-dependencies:Specification">
-        <requiresConcept refId="jakarta-ee-dependencies:ArtifactDependencies" />
         <description>Creates a `Specification` per unique groupId/artifactId and associates the artifacts, i.e. `(:Specification)-[:CONTAINS_ARTIFACT]->(:Artifact)`.</description>
         <cypher><![CDATA[
             MATCH
