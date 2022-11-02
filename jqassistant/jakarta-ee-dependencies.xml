@@ -95,11 +95,13 @@
             MATCH
               (platform:Platform:Artifact)-[dependsOn:DEPENDS_ON*0..]->(dependency:Artifact),
               (specification:Specification)-[:CONTAINS_ARTIFACT]->(dependency)
+            WITH
+              specification, collect(dependency) as dependencies, collect(dependsOn) as dependsOn
             RETURN
               {
                 role : "graph",
                 parent: specification,
-                nodes: collect(dependency),
+                nodes: dependencies,
                 relationships: dependsOn
               }
             ]]></cypher>
