@@ -1,160 +1,177 @@
 @startuml
 skinparam componentStyle uml2
 !pragma layout elk
-  [org.glassfish:jakarta.faces:jar:sources:3.0.0-RC5] <<Artifact File Maven>> as n235143
-  [jakarta.json:jakarta.json-api:jar:2.0.1] <<Artifact File Maven Release>> as n256006
-  [jakarta.activation:jakarta.activation-api:jar:2.0.1] <<Artifact File Maven Release>> as n188165
-  [junit:junit:jar:4.13] <<Artifact File Maven>> as n79629
-  [jakarta.authentication:jakarta.authentication-api:jar:2.0.0] <<Artifact File Maven Release>> as n79628
-  [jakarta.mail:jakarta.mail-api:jar:2.0.1] <<Artifact File Maven Release>> as n187795
-  [jakarta.faces:jakarta.faces-api:jar:3.0.0] <<Artifact File Maven Release>> as n76827
-  [jakarta.json.bind:jakarta.json.bind-api:jar:2.0.0] <<Artifact File Maven Release>> as n76829
-  [jakarta.json:jakarta.json-api:jar:2.0.0] <<Artifact File Maven Release>> as n76828
-  [jakarta.xml.ws:jakarta.xml.ws-api:jar:3.0.1] <<Artifact File Maven Release>> as n206238
-  [jakarta.validation:jakarta.validation-api:jar:3.0.0] <<Artifact File Maven Release>> as n76830
-  [jakarta.resource:jakarta.resource-api:jar:2.0.0] <<Artifact File Maven Release>> as n87202
-  [jakarta.ejb:jakarta.ejb-api:jar:4.0.0-RC2] <<Artifact File Maven Release>> as n5797
-  [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n5798
-  [jakarta.el:jakarta.el-api:jar:4.0.0-RC1] <<Artifact File Maven Release>> as n553
-  [jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2] <<Artifact File Maven Release>> as n71724
-  [jakarta.platform:jakarta.jakartaee-api:jar:9.1.0] <<Artifact File Maven Platform Release>> as n256812
-  [com.sun.activation:jakarta.activation:jar:2.0.1] <<Artifact File Maven>> as n187827
-  [jakarta.servlet.jsp:jakarta.servlet.jsp-api:jar:3.0.0] <<Artifact File Maven Release>> as n16689
-  [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1] <<Artifact File Maven Release>> as n27697
-  [jakarta.authorization:jakarta.authorization-api:jar:2.0.0] <<Artifact File Maven Release>> as n20657
-  [jakarta.persistence:jakarta.persistence-api:jar:3.0.0] <<Artifact File Maven Release>> as n16690
-  [jakarta.ws.rs:jakarta.ws.rs-api:jar:3.0.0] <<Artifact File Maven>> as n16691
-  [jakarta.jws:jakarta.jws-api:jar:3.0.0] <<Artifact File Maven Release>> as n16692
-  [jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0] <<Artifact File Maven Release>> as n7606
-  [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0] <<Artifact File Maven Release>> as n7607
-  [com.sun.mail:jakarta.mail:jar:2.0.1] <<Artifact File Maven>> as n187829
-  [jakarta.annotation:jakarta.annotation-api:jar:2.0.0] <<Artifact File Maven Release>> as n7608
-  [jakarta.servlet:jakarta.servlet-api:jar:5.0.0] <<Artifact File Maven Release>> as n7609
-  [jakarta.inject:jakarta.inject-api:jar:2.0.0] <<Artifact File Maven Release>> as n7610
-  [jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.1] <<Artifact File Maven Release>> as n206265
-  [jakarta.el:jakarta.el-api:jar:4.0.0] <<Artifact File Maven Release>> as n7611
-  [jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1] <<Artifact File Maven Release>> as n206264
-  [jakarta.jms:jakarta.jms-api:jar:3.0.0] <<Artifact File Maven Release>> as n84426
-  [org.testng:testng:jar:6.8.8] <<Artifact File Maven>> as n16336
-  [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC3] <<Artifact File Maven Release>> as n176474
-  [org.testng:testng:jar:6.11] <<Artifact File Maven>> as n100954
-  [junit:junit:jar:4.13.2] <<Artifact File Maven>> as n187487
-  [jakarta.platform:jakarta.jakartaee-web-api:jar:9.1.0] <<Artifact File Maven Release>> as n255965
-  [jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n51935
-  [jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:2.0.0] <<Artifact File Maven Release>> as n86756
-  [jakarta.annotation:jakarta.annotation-api:jar:1.3.5] <<Artifact File Maven Release>> as n40422
-  [jakarta.ejb:jakarta.ejb-api:jar:4.0.0] <<Artifact File Maven Release>> as n88169
-  [jakarta.websocket:jakarta.websocket-api:jar:2.0.0] <<Artifact File Maven>> as n88168
-  [jakarta.transaction:jakarta.transaction-api:jar:2.0.0] <<Artifact File Maven Release>> as n83560
-  [org.glassfish:jakarta.faces:jar:3.0.0] <<Artifact File Maven>> as n88171
-  [com.sun.activation:jakarta.activation:jar:2.0.0] <<Artifact File Maven>> as n78698
-  [jakarta.transaction:jakarta.transaction-api:jar:2.0.0-RC1] <<Artifact File Maven Release>> as n4843
-  [jakarta.security.enterprise:jakarta.security.enterprise-api:jar:2.0.0] <<Artifact File Maven>> as n88170
-  [jakarta.enterprise.concurrent:jakarta.enterprise.concurrent-api:jar:2.0.0] <<Artifact File Maven Release>> as n77293
-  [jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.0] <<Artifact File Maven Release>> as n77295
-  [jakarta.batch:jakarta.batch-api:jar:2.0.0] <<Artifact File Maven Release>> as n77294
-  [jakarta.xml.soap:jakarta.xml.soap-api:jar:2.0.0] <<Artifact File Maven Release>> as n77297
-  [jakarta.xml.ws:jakarta.xml.ws-api:jar:3.0.0] <<Artifact File Maven Release>> as n77296
-  [junit:junit:jar:4.12] <<Artifact File Maven>> as n4209
+  component "jakarta.authentication:jakarta.authentication-api:jar:3.0.0" <<Artifact File Maven Release>> as n354304
+  component "jakarta.ws.rs:jakarta.ws.rs-api:jar:3.1.0" <<Artifact File Maven>> as n265870
+  component "jakarta.json:jakarta.json-api:jar:2.1.0" <<Artifact File Maven Release>> as n279956
+  component "org.junit.jupiter:junit-jupiter-engine:jar:5.8.1" <<Artifact File Maven>> as n310928
+  component "org.junit.jupiter:junit-jupiter-params:jar:5.8.1" <<Artifact File Maven>> as n310929
+  component "jakarta.transaction:jakarta.transaction-api:jar:2.0.1" <<Artifact File Maven Release>> as n278183
+  component "jakarta.enterprise.concurrent:jakarta.enterprise.concurrent-api:jar:3.0.1" <<Artifact File Maven Release>> as n366753
+  component "jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:3.0.0" <<Artifact File Maven Release>> as n309933
+  component "jakarta.validation:jakarta.validation-api:jar:3.0.2" <<Artifact File Maven Release>> as n309037
+  component "jakarta.jms:jakarta.jms-api:jar:3.1.0" <<Artifact File Maven Release>> as n320047
+  component "jakarta.annotation:jakarta.annotation-api:jar:2.1.1" <<Artifact File Maven Release>> as n366376
+  component "jakarta.json.bind:jakarta.json.bind-api:jar:3.0.0" <<Artifact File Maven Release>> as n281514
+  component "jakarta.el:jakarta.el-api:jar:4.0.0-RC1" <<Artifact File Maven Release>> as n560
+  component "jakarta.servlet.jsp:jakarta.servlet.jsp-api:jar:3.1.0" <<Artifact File Maven Release>> as n309940
+  component "jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.0-M1" <<Artifact File Maven Release>> as n66992
+  component "jakarta.interceptor:jakarta.interceptor-api:jar:2.0.0-RC1" <<Artifact File Maven Release>> as n91187
+  component "org.testng:testng:jar:6.11" <<Artifact File Maven>> as n143024
+  component "jakarta.persistence:jakarta.persistence-api:jar:3.1.0" <<Artifact File Maven Release>> as n278704
+  component "jakarta.resource:jakarta.resource-api:jar:2.1.0" <<Artifact File Maven Release>> as n311856
+  component "jakarta.enterprise:jakarta.enterprise.lang-model:jar:4.0.1" <<Artifact File Maven Release>> as n321340
+  component "jakarta.el:jakarta.el-api:jar:5.0.1" <<Artifact File Maven Release>> as n372029
+  component "jakarta.el:jakarta.el-api:jar:5.0.0" <<Artifact File Maven Release>> as n260665
+  component "jakarta.platform:jakarta.jakartaee-api:jar:10.0.0" <<Artifact File Maven Platform Release>> as n398781
+  component "jakarta.annotation:jakarta.annotation-api:jar:2.0.0" <<Artifact File Maven Release>> as n7611
+  component "junit:junit:jar:4.13.1" <<Artifact File Maven>> as n42557
+  component "jakarta.el:jakarta.el-api:jar:4.0.0" <<Artifact File Maven Release>> as n7614
+  component "org.hamcrest:hamcrest:jar:2.2" <<Artifact File Maven>> as n266437
+  component "jakarta.ejb:jakarta.ejb-api:jar:4.0.0" <<Artifact File Maven Release>> as n22725
+  component "jakarta.transaction:jakarta.transaction-api:jar:2.0.0" <<Artifact File Maven Release>> as n22726
+  component "jakarta.inject:jakarta.inject-api:jar:2.0.1" <<Artifact File Maven Release>> as n237380
+  component "jakarta.batch:jakarta.batch-api:jar:2.1.1" <<Artifact File Maven Release>> as n375118
+  component "jakarta.mail:jakarta.mail-api:jar:2.1.0" <<Artifact File Maven Release>> as n258254
+  component "jakarta.servlet:jakarta.servlet-api:jar:6.0.0" <<Artifact File Maven Release>> as n308180
+  component "org.testng:testng:jar:6.8.8" <<Artifact File Maven>> as n16339
+  component "jakarta.enterprise:jakarta.enterprise.cdi-api:jar:3.0.1" <<Artifact File Maven Release>> as n261206
+  component "jakarta.interceptor:jakarta.interceptor-api:jar:2.1.0" <<Artifact File Maven Release>> as n267868
+  component "jakarta.faces:jakarta.faces-api:jar:4.0.1" <<Artifact File Maven Release>> as n320351
+  component "jakarta.annotation:jakarta.annotation-api:jar:2.1.0" <<Artifact File Maven Release>> as n267867
+  component "org.glassfish:jakarta.faces:jar:sources:4.0.0" <<Artifact File Maven>> as n320356
+  component "jakarta.websocket:jakarta.websocket-api:jar:2.1.0" <<Artifact File Maven Release>> as n320352
+  component "jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.0.0" <<Artifact File Maven Release>> as n246759
+  component "jakarta.annotation:jakarta.annotation-api:jar:2.1.0-B1" <<Artifact File Maven Release>> as n230374
+  component "jakarta.websocket:jakarta.websocket-client-api:jar:2.1.0" <<Artifact File Maven Release>> as n320353
+  component "jakarta.xml.ws:jakarta.xml.ws-api:jar:4.0.0" <<Artifact File Maven Release>> as n263137
+  component "jakarta.enterprise:jakarta.enterprise.cdi-api:jar:4.0.1" <<Artifact File Maven Release>> as n320354
+  component "jakarta.activation:jakarta.activation-api:jar:2.1.0" <<Artifact File Maven Release>> as n256484
+  component "jakarta.ejb:jakarta.ejb-api:jar:4.0.1" <<Artifact File Maven Release>> as n320355
+  component "jakarta.interceptor:jakarta.interceptor-api:jar:2.0.1" <<Artifact File Maven Release>> as n261225
+  component "org.eclipse.angus:angus-activation:jar:1.0.0-M2" <<Artifact File Maven>> as n258280
+  component "jakarta.platform:jakarta.jakartaee-web-api:jar:10.0.0" <<Artifact File Maven Release>> as n396791
+  component "jakarta.annotation:jakarta.annotation-api:jar:1.3.5" <<Artifact File Maven Release>> as n35825
+  component "jakarta.inject:jakarta.inject-api:jar:2.0.0-RC2" <<Artifact File Maven Release>> as n110963
+  component "junit:junit:jar:4.13.2" <<Artifact File Maven>> as n56181
+  component "jakarta.xml.soap:jakarta.xml.soap-api:jar:3.0.0" <<Artifact File Maven Release>> as n263164
+  component "jakarta.authorization:jakarta.authorization-api:jar:2.1.0" <<Artifact File Maven Release>> as n353917
+  component "jakarta.security.enterprise:jakarta.security.enterprise-api:jar:3.0.0" <<Artifact File Maven>> as n396796
+  component "org.glassfish:jakarta.faces:jar:4.0.0" <<Artifact File Maven>> as n396797
+  component "jakarta.enterprise:jakarta.enterprise.lang-model:jar:4.0.0" <<Artifact File Maven Release>> as n266873
+  component "jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.0" <<Artifact File Maven Release>> as n263163
 
-n77297 --> n4209 : depends on (scope:test, optional:false)
-n77297 --> n78698 : depends on (scope:compile, optional:false)
-n87202 --> n7608 : depends on (scope:compile, optional:false)
-n206264 --> n187827 : depends on (scope:compile, optional:false)
-n77296 --> n77295 : depends on (scope:compile, optional:false)
-n7607 --> n7608 : depends on (scope:compile, optional:false)
-n77296 --> n16692 : depends on (scope:compile, optional:false)
-n77296 --> n77297 : depends on (scope:compile, optional:false)
-n206238 --> n16692 : depends on (scope:compile, optional:false)
-n88169 --> n83560 : depends on (scope:compile, optional:false)
-n256812 --> n77293 : depends on (scope:compile, optional:true)
-n77295 --> n78698 : depends on (scope:compile, optional:false)
-n256812 --> n20657 : depends on (scope:compile, optional:true)
-n256812 --> n88171 : depends on (scope:compile, optional:true)
-n256812 --> n187795 : depends on (scope:compile, optional:true)
-n256812 --> n206264 : depends on (scope:compile, optional:true)
-n256812 --> n84426 : depends on (scope:compile, optional:true)
-n256812 --> n187829 : depends on (scope:compile, optional:true)
-n206238 --> n206264 : depends on (scope:compile, optional:false)
-n206238 --> n206265 : depends on (scope:compile, optional:false)
-n256812 --> n206265 : depends on (scope:compile, optional:true)
-n256812 --> n206238 : depends on (scope:compile, optional:true)
-n256812 --> n16692 : depends on (scope:compile, optional:true)
-n256812 --> n77294 : depends on (scope:compile, optional:true)
-n256812 --> n255965 : depends on (scope:compile, optional:true)
-n256812 --> n188165 : depends on (scope:compile, optional:true)
-n256812 --> n87202 : depends on (scope:compile, optional:true)
-n7606 --> n7607 : depends on (scope:compile, optional:false)
-n7606 --> n5797 : depends on (scope:provided, optional:false)
-n7606 --> n16336 : depends on (scope:test, optional:false)
-n7606 --> n7610 : depends on (scope:compile, optional:false)
-n7606 --> n7611 : depends on (scope:compile, optional:false)
-n7606 --> n5798 : depends on (scope:provided, optional:false)
-n51935 --> n40422 : depends on (scope:compile, optional:false)
-n77294 --> n7606 : depends on (scope:provided, optional:false)
-n77294 --> n7610 : depends on (scope:provided, optional:false)
-n76829 --> n76828 : depends on (scope:provided, optional:false)
-n176474 --> n27697 : depends on (scope:provided, optional:false)
-n176474 --> n51935 : depends on (scope:provided, optional:false)
-n4843 --> n51935 : depends on (scope:provided, optional:false)
-n16689 --> n7609 : depends on (scope:provided, optional:false)
-n16689 --> n7611 : depends on (scope:provided, optional:false)
-n4843 --> n27697 : depends on (scope:provided, optional:false)
-n76829 --> n4209 : depends on (scope:test, optional:false)
-n5798 --> n51935 : depends on (scope:provided, optional:false)
-n76827 --> n7609 : depends on (scope:provided, optional:false)
-n76827 --> n16690 : depends on (scope:provided, optional:true)
-n76827 --> n235143 : depends on (scope:provided, optional:false)
-n5798 --> n27697 : depends on (scope:provided, optional:false)
-n76827 --> n76828 : depends on (scope:provided, optional:true)
-n5797 --> n4843 : depends on (scope:compile, optional:false)
-n76827 --> n16689 : depends on (scope:provided, optional:true)
-n76827 --> n86756 : depends on (scope:provided, optional:true)
-n76827 --> n7606 : depends on (scope:provided, optional:false)
-n76827 --> n88168 : depends on (scope:provided, optional:false)
-n76827 --> n176474 : depends on (scope:provided, optional:true)
-n76827 --> n77295 : depends on (scope:provided, optional:true)
-n76827 --> n76830 : depends on (scope:provided, optional:false)
-n83560 --> n27697 : depends on (scope:provided, optional:false)
-n83560 --> n51935 : depends on (scope:provided, optional:false)
-n77293 --> n79629 : depends on (scope:test, optional:false)
-n76830 --> n100954 : depends on (scope:test, optional:false)
-n76827 --> n5797 : depends on (scope:provided, optional:true)
-n76827 --> n77296 : depends on (scope:provided, optional:true)
-n76827 --> n7611 : depends on (scope:provided, optional:false)
-n76827 --> n7608 : depends on (scope:provided, optional:false)
-n255965 --> n88171 : depends on (scope:compile, optional:true)
-n255965 --> n256006 : depends on (scope:compile, optional:true)
-n27697 --> n51935 : depends on (scope:compile, optional:false)
-n255965 --> n7609 : depends on (scope:compile, optional:true)
-n255965 --> n7610 : depends on (scope:compile, optional:true)
-n255965 --> n16691 : depends on (scope:compile, optional:true)
-n255965 --> n79628 : depends on (scope:compile, optional:true)
-n255965 --> n76830 : depends on (scope:compile, optional:true)
-n255965 --> n86756 : depends on (scope:compile, optional:true)
-n27697 --> n16336 : depends on (scope:test, optional:false)
-n27697 --> n71724 : depends on (scope:compile, optional:false)
-n255965 --> n16690 : depends on (scope:compile, optional:true)
-n255965 --> n16689 : depends on (scope:compile, optional:true)
-n27697 --> n553 : depends on (scope:compile, optional:false)
-n255965 --> n7606 : depends on (scope:compile, optional:true)
-n255965 --> n88169 : depends on (scope:compile, optional:true)
-n187795 --> n187827 : depends on (scope:provided, optional:false)
-n255965 --> n7608 : depends on (scope:compile, optional:true)
-n255965 --> n76829 : depends on (scope:compile, optional:true)
-n255965 --> n88168 : depends on (scope:compile, optional:true)
-n255965 --> n83560 : depends on (scope:compile, optional:true)
-n255965 --> n76827 : depends on (scope:compile, optional:true)
-n255965 --> n7611 : depends on (scope:compile, optional:true)
-n20657 --> n7609 : depends on (scope:compile, optional:false)
-n255965 --> n7607 : depends on (scope:compile, optional:true)
-n255965 --> n88170 : depends on (scope:compile, optional:true)
-n86756 --> n16689 : depends on (scope:provided, optional:false)
-n86756 --> n7611 : depends on (scope:compile, optional:false)
-n86756 --> n77295 : depends on (scope:compile, optional:false)
-n206265 --> n187827 : depends on (scope:compile, optional:false)
-n86756 --> n7609 : depends on (scope:compile, optional:false)
-n206265 --> n187487 : depends on (scope:test, optional:false)
-n87202 --> n4843 : depends on (scope:compile, optional:false)
+n309940 --> n260665 : depends on (scope:provided, optional:false)
+n22726 --> n66992 : depends on (scope:provided, optional:false)
+n22726 --> n91187 : depends on (scope:provided, optional:false)
+n309940 --> n308180 : depends on (scope:provided, optional:false)
+n320047 --> n230374 : depends on (scope:provided, optional:false)
+n261225 --> n7611 : depends on (scope:compile, optional:false)
+n320352 --> n320353 : depends on (scope:provided, optional:false)
+n398781 --> n353917 : depends on (scope:compile, optional:false)
+n398781 --> n320047 : depends on (scope:compile, optional:false)
+n398781 --> n375118 : depends on (scope:compile, optional:false)
+n398781 --> n263137 : depends on (scope:compile, optional:true)
+n398781 --> n256484 : depends on (scope:compile, optional:false)
+n398781 --> n263163 : depends on (scope:compile, optional:true)
+n320355 --> n22726 : depends on (scope:compile, optional:false)
+n398781 --> n258254 : depends on (scope:compile, optional:false)
+n398781 --> n263164 : depends on (scope:compile, optional:true)
+n398781 --> n396791 : depends on (scope:compile, optional:false)
+n263164 --> n56181 : depends on (scope:test, optional:false)
+n398781 --> n311856 : depends on (scope:compile, optional:false)
+n398781 --> n396797 : depends on (scope:provided, optional:true)
+n263164 --> n256484 : depends on (scope:compile, optional:false)
+n353917 --> n308180 : depends on (scope:compile, optional:false)
+n320351 --> n263137 : depends on (scope:provided, optional:true)
+n311856 --> n261206 : depends on (scope:provided, optional:false)
+n311856 --> n278183 : depends on (scope:compile, optional:false)
+n311856 --> n267867 : depends on (scope:compile, optional:false)
+n320351 --> n278183 : depends on (scope:provided, optional:true)
+n246759 --> n267868 : depends on (scope:compile, optional:false)
+n320351 --> n320355 : depends on (scope:provided, optional:true)
+n246759 --> n266873 : depends on (scope:compile, optional:false)
+n320351 --> n278704 : depends on (scope:provided, optional:true)
+n246759 --> n22726 : depends on (scope:provided, optional:false)
+n320351 --> n279956 : depends on (scope:provided, optional:true)
+n246759 --> n16339 : depends on (scope:test, optional:false)
+n267868 --> n267867 : depends on (scope:compile, optional:false)
+n320351 --> n308180 : depends on (scope:provided, optional:false)
+n320351 --> n263163 : depends on (scope:provided, optional:true)
+n320351 --> n320353 : depends on (scope:provided, optional:false)
+n320351 --> n309037 : depends on (scope:provided, optional:false)
+n320351 --> n320352 : depends on (scope:provided, optional:false)
+n320351 --> n260665 : depends on (scope:provided, optional:false)
+n320351 --> n320356 : depends on (scope:provided, optional:true)
+n246759 --> n260665 : depends on (scope:compile, optional:false)
+n320351 --> n320354 : depends on (scope:provided, optional:false)
+n246759 --> n267867 : depends on (scope:compile, optional:false)
+n320351 --> n267867 : depends on (scope:provided, optional:false)
+n246759 --> n237380 : depends on (scope:compile, optional:false)
+n320354 --> n260665 : depends on (scope:compile, optional:false)
+n320354 --> n16339 : depends on (scope:test, optional:false)
+n261206 --> n7614 : depends on (scope:compile, optional:false)
+n366753 --> n267868 : depends on (scope:provided, optional:false)
+n261206 --> n22726 : depends on (scope:provided, optional:false)
+n366753 --> n320354 : depends on (scope:provided, optional:false)
+n261206 --> n22725 : depends on (scope:provided, optional:false)
+n261206 --> n237380 : depends on (scope:compile, optional:false)
+n261206 --> n261225 : depends on (scope:compile, optional:false)
+n375118 --> n246759 : depends on (scope:provided, optional:false)
+n261206 --> n16339 : depends on (scope:test, optional:false)
+n375118 --> n237380 : depends on (scope:provided, optional:false)
+n320354 --> n321340 : depends on (scope:compile, optional:false)
+n320354 --> n237380 : depends on (scope:compile, optional:false)
+n320354 --> n267867 : depends on (scope:compile, optional:false)
+n320354 --> n267868 : depends on (scope:compile, optional:false)
+n396791 --> n354304 : depends on (scope:compile, optional:false)
+n396791 --> n396796 : depends on (scope:compile, optional:false)
+n308180 --> n310928 : depends on (scope:test, optional:false)
+n308180 --> n310929 : depends on (scope:test, optional:false)
+n309933 --> n308180 : depends on (scope:compile, optional:false)
+n278183 --> n261206 : depends on (scope:provided, optional:false)
+n309933 --> n260665 : depends on (scope:compile, optional:false)
+n308180 --> n266437 : depends on (scope:test, optional:false)
+n278183 --> n261225 : depends on (scope:provided, optional:false)
+n309933 --> n309940 : depends on (scope:provided, optional:false)
+n396791 --> n278183 : depends on (scope:compile, optional:false)
+n22725 --> n22726 : depends on (scope:compile, optional:false)
+n396791 --> n237380 : depends on (scope:compile, optional:false)
+n396791 --> n320355 : depends on (scope:compile, optional:false)
+n372029 --> n310928 : depends on (scope:test, optional:false)
+n396791 --> n256484 : depends on (scope:provided, optional:true)
+n396791 --> n278704 : depends on (scope:compile, optional:false)
+n258254 --> n258280 : depends on (scope:test, optional:false)
+n91187 --> n35825 : depends on (scope:compile, optional:false)
+n396791 --> n366753 : depends on (scope:compile, optional:true)
+n258254 --> n256484 : depends on (scope:compile, optional:false)
+n396791 --> n309940 : depends on (scope:compile, optional:false)
+n258254 --> n56181 : depends on (scope:test, optional:false)
+n396791 --> n320353 : depends on (scope:compile, optional:false)
+n396791 --> n320351 : depends on (scope:compile, optional:false)
+n396791 --> n309037 : depends on (scope:compile, optional:false)
+n396791 --> n308180 : depends on (scope:compile, optional:false)
+n396791 --> n320352 : depends on (scope:compile, optional:false)
+n396791 --> n366376 : depends on (scope:compile, optional:false)
+n396791 --> n279956 : depends on (scope:compile, optional:false)
+n396791 --> n396797 : depends on (scope:provided, optional:true)
+n396791 --> n372029 : depends on (scope:compile, optional:false)
+n309037 --> n143024 : depends on (scope:test, optional:false)
+n396791 --> n267868 : depends on (scope:compile, optional:false)
+n396791 --> n320354 : depends on (scope:compile, optional:false)
+n396791 --> n321340 : depends on (scope:compile, optional:false)
+n396791 --> n265870 : depends on (scope:compile, optional:false)
+n396791 --> n263163 : depends on (scope:provided, optional:true)
+n396791 --> n309933 : depends on (scope:compile, optional:false)
+n396791 --> n281514 : depends on (scope:compile, optional:false)
+n263137 --> n263163 : depends on (scope:compile, optional:false)
+n263137 --> n263164 : depends on (scope:compile, optional:false)
+n263163 --> n256484 : depends on (scope:compile, optional:false)
+n66992 --> n91187 : depends on (scope:compile, optional:false)
+n66992 --> n110963 : depends on (scope:compile, optional:false)
+n66992 --> n16339 : depends on (scope:test, optional:false)
+n281514 --> n42557 : depends on (scope:test, optional:false)
+n66992 --> n560 : depends on (scope:compile, optional:false)
+n281514 --> n279956 : depends on (scope:provided, optional:false)
 
 @enduml

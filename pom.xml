@@ -19,13 +19,24 @@
         <platform.type>jar</platform.type>
         <platform.version>9.1.0</platform.version>
          -->
-        <!-- Jakarta EE 9.1.0 Platform/Full Profile on Central configuration -->
+
+        <!-- Java EE 8.0.1 Platform/Full Profile on Central configuration
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
+        <repo.filter>javax*:*:*</repo.filter>
+        <platform.groupId>javax</platform.groupId>
+        <platform.artifactId>javaee-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>8.0.1</platform.version>
+        -->
+
+        <!-- Jakarta EE 9.1.0 Platform/Full Profile on Central configuration
         <repo.url>https://repo1.maven.org/maven2</repo.url>
         <repo.filter>jakarta.*:*:*</repo.filter>
         <platform.groupId>jakarta.platform</platform.groupId>
         <platform.artifactId>jakarta.jakartaee-api</platform.artifactId>
         <platform.type>jar</platform.type>
         <platform.version>9.1.0</platform.version>
+         -->
 
         <!-- Jakarta EE 9.1.0 Web Profile on Central configuration
         <repo.url>https://repo1.maven.org/maven2</repo.url>
@@ -35,30 +46,40 @@
         <platform.type>jar</platform.type>
         <platform.version>9.1.0</platform.version>
          -->
-        <!-- Jakarta EE 10.0.0 Platform/Full Profile on Staging configuration
-        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url>
+
+        <!-- Jakarta EE 10.0.0 Platform/Full Profile on Central configuration -->
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
+        <repo.filter>jakarta.*:*:*</repo.filter>
+        <platform.groupId>jakarta.platform</platform.groupId>
+        <platform.artifactId>jakarta.jakartaee-api</platform.artifactId>
+        <platform.type>jar</platform.type>
+        <platform.version>10.0.0</platform.version>
+
+        <!-- Jakarta EE 10.0.0 Platform/Full Profile on Central configuration
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
         <repo.filter>jakarta.*:*:*</repo.filter>
         <platform.groupId>jakarta.platform</platform.groupId>
         <platform.artifactId>jakarta.jakartaee-api</platform.artifactId>
         <platform.type>jar</platform.type>
         <platform.version>10.0.0</platform.version>
          -->
-        <!-- Jakarta EE 10.0.0 Web Profile on Staging configuration
-        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url>
+        <!-- Jakarta EE 10.0.0 Web Profile on Central configuration
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
         <repo.filter>jakarta.*:*:*</repo.filter>
         <platform.groupId>jakarta.platform</platform.groupId>
         <platform.artifactId>jakarta.jakartaee-web-api</platform.artifactId>
         <platform.type>jar</platform.type>
         <platform.version>10.0.0</platform.version>
          -->
-        <!-- Jakarta EE 10.0.0 Core Profile on Staging configuration
-        <repo.url>https://jakarta.oss.sonatype.org/content/repositories/staging/</repo.url>
+        <!-- Jakarta EE 10.0.0 Core Profile on Central configuration
+        <repo.url>https://repo1.maven.org/maven2</repo.url>
         <repo.filter>jakarta.*:*:*</repo.filter>
         <platform.groupId>jakarta.platform</platform.groupId>
         <platform.artifactId>jakarta.jakartaee-core-api</platform.artifactId>
         <platform.type>jar</platform.type>
         <platform.version>10.0.0</platform.version>
          -->
+
 		<!-- MicroProfile 5.0 Platform on Central configuration
         <repo.url>https://repo1.maven.org/maven2</repo.url>
         <repo.filter>org.eclipse.microprofile*:*:*</repo.filter>
@@ -116,7 +137,7 @@
         <platform.version>3.0.1</platform.version>
          -->
  	    <platform.artifact>${platform.groupId}:${platform.artifactId}:${platform.type}:${platform.version}</platform.artifact>
-        <jqassistant.version>1.12.0</jqassistant.version>
+        <jqassistant.version>1.12.1</jqassistant.version>
     </properties>
 
     <build>
