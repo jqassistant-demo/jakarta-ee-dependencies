@@ -137,7 +137,7 @@
         <platform.version>3.0.1</platform.version>
          -->
  	    <platform.artifact>${platform.groupId}:${platform.artifactId}:${platform.type}:${platform.version}</platform.artifact>
-        <jqassistant.version>1.12.1</jqassistant.version>
+        <jqassistant.version>1.12.2</jqassistant.version>
     </properties>
 
     <build>
