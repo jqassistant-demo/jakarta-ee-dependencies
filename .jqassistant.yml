@@ -1,0 +1,27 @@
+jqassistant:
+  plugins:
+    - group-id: org.jqassistant.plugin
+      artifact-id: jqassistant-m2repo-plugin
+      version: 2.0.1
+    - group-id: org.jqassistant.plugin
+      artifact-id: jqassistant-plantuml-report-plugin
+      version: 2.0.0
+  store:
+    reset: false
+    # uri: bolt://localhost:7687
+  scan:
+    include:
+      urls:
+        - maven:repository::${repo.url}
+    properties:
+      m2repo.filter.includes: ${repo.filter}
+      m2repo.directory: ${project.basedir}/cache/jqassistant/m2repo
+  analyze:
+    execute-applied-concepts: true
+    groups:
+      - jakarta-ee-dependencies
+    rule-parameters:
+      platformArtifact: ${platform.artifact}
+    report:
+      properties:
+        plantuml.report.rendermode: elk

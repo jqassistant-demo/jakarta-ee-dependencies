@@ -137,7 +137,7 @@
         <platform.version>3.0.1</platform.version>
          -->
  	    <platform.artifact>${platform.groupId}:${platform.artifactId}:${platform.type}:${platform.version}</platform.artifact>
-        <jqassistant.version>1.12.2</jqassistant.version>
+        <jqassistant.version>2.0.1</jqassistant.version>
     </properties>
 
     <build>
@@ -153,45 +153,8 @@
                             <goal>scan</goal>
                             <goal>analyze</goal>
                         </goals>
-                        <configuration>
-                            <!-- allow incremental scan -->
-                            <reset>false</reset>
-                            <executeAppliedConcepts>true</executeAppliedConcepts>
-                            <scanProperties>
-                                <m2repo.filter.includes>${repo.filter}</m2repo.filter.includes>
-                                <m2repo.directory>${project.basedir}/cache/jqassistant/m2repo</m2repo.directory>
-                            </scanProperties>
-                            <ruleParameters>
-                                <platformArtifact>${platform.artifact}</platformArtifact>
-                            </ruleParameters>
-                            <scanIncludes>
-                                <scanInclude>
-                                    <url>${repo.url}</url>
-                                    <scope>maven:repository</scope>
-                                </scanInclude>
-                            </scanIncludes>
-                            <groups>
-                                <group>jakarta-ee-dependencies</group>
-                            </groups>
-                            <reportProperties>
-                                <plantuml.report.rendermode>elk</plantuml.report.rendermode>
-                            </reportProperties>
-                            <storeDirectory>${project.basedir}/target/jqassistant/store</storeDirectory>
-                            <!--
-                            <store>
-                                <uri>bolt://localhost:7687</uri>
-                            </store>
-                            -->
-                        </configuration>
                     </execution>
                 </executions>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.jqassistant.contrib.plugin</groupId>
-                        <artifactId>jqassistant-apoc-plugin</artifactId>
-                        <version>1.10.0</version>
-                    </dependency>
-                </dependencies>
             </plugin>
         </plugins>
     </build>
