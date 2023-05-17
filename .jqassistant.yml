@@ -5,11 +5,14 @@ jqassistant:
       version: 2.0.1
     - group-id: org.jqassistant.plugin
       artifact-id: jqassistant-plantuml-report-plugin
-      version: 2.0.0
+      version: 2.0.1
+    - group-id: org.jqassistant.plugin
+      artifact-id: jqassistant-graphml-plugin
+      version: 2.0.1
   store:
-    reset: false
     # uri: bolt://localhost:7687
   scan:
+    reset: false
     include:
       urls:
         - maven:repository::${repo.url}
