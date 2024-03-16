@@ -10,13 +10,8 @@ TIP: See link:example[here] for further example reports.
 
 == Requirements
 
-* Java Development Kit 8 or later
+* Java Development Kit 11 or later (17+ recommended)
 * Maven 3.5.x or later
-
-TIP: The following JVM parameters are required if Java 16 or later is used as runtime environment:
-  +
-  +
-`set  MAVEN_OPTS=--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED`
 
 == How To Use It
 
