@@ -34,7 +34,7 @@
             MATCH
               (artifact:Artifact)
             WHERE
-              exists(artifact.lastModified)
+              artifact.lastModified is not null
             SET
               artifact.lastModificationTime = toString(datetime({epochMillis:artifact.lastModified}))
             REMOVE
